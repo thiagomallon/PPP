@@ -7,7 +7,7 @@ The objetive is implement something simple, but useful and respecting the convet
 and composer to manage dependencies. The login interface was made using **PSR-3** proposals and autoload using **PSR-4**.
 There is sam samples of using stream, stream wrapper for session save and data storage and, of course, to test
 http requisitions. All the code was tested using **TDD** aprouch and **PHPUnit** framework. JS script was tested too, by 
-using **Jasmine** framework. Project code has been documented by using phpDocumentor.
+using **Jasmine** framework. Project code has been documented by using **phpDocumentor**.
 
 **Composer**
 > composer create-project mallon/ppp
