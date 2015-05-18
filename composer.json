@@ -1,0 +1,56 @@
+{
+    "name": "mallon/ppp",
+    "description": "Project implements Principles, Patterns, Proposals and other points of software development theory that are proven to work.",
+    "type": "project",
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "Thiago Mallon",
+            "email": "thiagomallon@gmail.com"
+        }
+    ],    
+    "minimum-stability": "dev",
+    "keywords": [
+        "MVC",
+        "PSR-4",
+        "TDD",
+        "Mallon",
+        "Thiago Mallon",
+        "Bower",
+        "Angular",
+        "Jasmine",
+        "Bootstrap"
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    	    "App\\": "src/",
+    	    "Test\\": "test/",
+    	    "ComposerCustoms\\":"data/composer-customs"
+    	}
+    },
+    "suggest": {
+    	"phpunit/phpunit": "Go test your codes, matey...",
+    	"phpdocumentor/phpdocumentor": "Generates documentation for your application"
+    },
+    "scripts": {
+        "pre-install-cmd": [       
+            "ComposerCustoms\\WelcomeAboard::preInstall"    
+        ],
+        "post-install-cmd": [       
+            "ComposerCustoms\\WelcomeAboard::postInstall"    
+        ],
+        "pre-update-cmd": [
+            "ComposerCustoms\\WelcomeAboard::preUpdate"
+        ],
+        "post-update-cmd": [        
+            "ComposerCustoms\\WelcomeAboard::postUpdate"    
+        ],
+        "pre-autoload-dump": [        
+            "ComposerCustoms\\WelcomeAboard::preAutoLoadDump"    
+        ],
+        "post-autoload-dump": [        
+            "ComposerCustoms\\WelcomeAboard::postAutoLoadDump"    
+        ]
+    }
+}

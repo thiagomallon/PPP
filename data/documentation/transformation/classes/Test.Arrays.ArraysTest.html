@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>    RepCertification &raquo; \Test\Arrays\ArraysTest
+</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+            <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+            <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+        <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/template.js" type="text/javascript"></script>
+        <script src="../js/prettify/prettify.min.js" type="text/javascript"></script>
+    
+            <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png"/>
+    </head>
+<body>
+
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> </a>
+                <a class="brand" href="../index.html">RepCertification</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                API Documentation <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a>Namespaces</a></li>
+                                                                        <li><a href="../namespaces/App.html">App</a></li>
+                                                                        <li><a href="../namespaces/Test.html">Test</a></li>
+                                                                                                                                </ul>
+                        </li>
+                        <li class="dropdown" id="charts-menu">
+                            <a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                Charts <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../graph_class.html">
+                                        <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="reports-menu">
+                            <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                Reports <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../errors.html">
+                                        <i class="icon-list-alt"></i>&#160;Errors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../markers.html">
+                                        <i class="icon-list-alt"></i>&#160;Markers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../deprecated.html">
+                                        <i class="icon-list-alt"></i>&#160;Deprecated
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="go_to_top">
+            <a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>
+        </div>
+    </div>
+    
+    <div id="___" class="container">
+        <noscript>
+            <div class="alert alert-warning">
+                Javascript is disabled; several features are only available if Javascript is enabled.
+            </div>
+        </noscript>
+
+        
+            <style>
+        .deprecated h2 {
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="row">
+        <div class="span4">
+                    <div class="btn-group view pull-right" data-toggle="buttons-radio">
+        <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button>
+        <button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+    </div>
+    <div class="btn-group visibility" data-toggle="buttons-checkbox">
+        <button class="btn public active" title="Show public elements">Public</button>
+        <button class="btn protected" title="Show protected elements">Protected</button>
+        <button class="btn private" title="Show private elements">Private</button>
+        <button class="btn inherited active" title="Show inherited elements">Inherited</button>
+    </div>
+
+        <ul class="side-nav nav nav-list">
+        <li class="nav-header">
+            <i class="icon-custom icon-method"></i> Methods
+            <ul>
+                                                                                                    <li class="method public">
+        <a href="#method_setUp" title="setUp :: Sets up the fixture, for example, opens a network connection.">
+            <span class="description">Sets up the fixture, for example, opens a network connection.</span><pre>setUp</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_tearDown" title="tearDown :: Tears down the fixture, for example, closes a network connection.">
+            <span class="description">Tears down the fixture, for example, closes a network connection.</span><pre>tearDown</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayCombine" title="testArrayCombine :: Método testa implementação da função array_combine() do PHP. Verifica-se que a função combina
+dois arrays, através da seguinte abordagem: Os valores do array do primeiro parâmetro serão
+as chaves dos valores do array do segundo parâmetro, sendo assim uma combinação dos valores dos
+dois arrays, porém, os valores do primeiro sendo convertidos em índices. A função retorna um
+terceiro array com a implementação. É importante ressaltar que ambos arrays a serem combinados,
+devem ter exatamente o mesmo número de elementos, do contrário um warning é gerado.">
+            <span class="description">Método testa implementação da função array_combine() do PHP. Verifica-se que a função combina
+dois arrays, através da seguinte abordagem: Os valores do array do primeiro parâmetro serão
+as chaves dos valores do array do segundo parâmetro, sendo assim uma combinação dos valores dos
+dois arrays, porém, os valores do primeiro sendo convertidos em índices. A função retorna um
+terceiro array com a implementação. É importante ressaltar que ambos arrays a serem combinados,
+devem ter exatamente o mesmo número de elementos, do contrário um warning é gerado.</span><pre>testArrayCombine</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayCountValues" title="testArrayCountValues :: Método implementa teste à função array_count_values() do PHP.">
+            <span class="description">Método implementa teste à função array_count_values() do PHP.</span><pre>testArrayCountValues</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayFillKeys" title="testArrayFillKeys :: Método implementa função array_fill_keys() do PHP. A função recebe dois parâmetros, o primeiro é o
+array e o segundo é o novo valor, que será atribuído à todos os elementos do array. A função transforma
+os valores do array passado em chaves e atribui o segundo parâmetro recebido pela função como valor
+à todos os novos índices. É importante lembrar que uma vez que existam valores duplicados, os mesmos serão
+retirados, uma vez que os índices do array devem ser únicos. No array de exemplo abaixo, declaro dois valores
+&#039;mingal&#039;, porém, array retornado da função array_fill_keys() possui apenas um índice &#039;mingal&#039;;">
+            <span class="description">Método implementa função array_fill_keys() do PHP. A função recebe dois parâmetros, o primeiro é o
+array e o segundo é o novo valor, que será atribuído à todos os elementos do array. A função transforma
+os valores do array passado em chaves e atribui o segundo parâmetro recebido pela função como valor
+à todos os novos índices. É importante lembrar que uma vez que existam valores duplicados, os mesmos serão
+retirados, uma vez que os índices do array devem ser únicos. No array de exemplo abaixo, declaro dois valores
+&#039;mingal&#039;, porém, array retornado da função array_fill_keys() possui apenas um índice &#039;mingal&#039;;</span><pre>testArrayFillKeys</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayFlipImplement" title="testArrayFlipImplement :: Método testa função array_flip do PHP. Função recebe um array e devolve o mesmo com índices
+e valores invertidos, ou seja, índice no lugar do valor e vice-versa.">
+            <span class="description">Método testa função array_flip do PHP. Função recebe um array e devolve o mesmo com índices
+e valores invertidos, ou seja, índice no lugar do valor e vice-versa.</span><pre>testArrayFlipImplement</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayIntersect" title="testArrayIntersect :: Método implementa função array_intersect() do PHP, e testa sua atuação.">
+            <span class="description">Método implementa função array_intersect() do PHP, e testa sua atuação.</span><pre>testArrayIntersect</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayIntersectAssoc" title="testArrayIntersectAssoc :: Método testa atribuição de array à função array_intersect_assoc(), do PHP.">
+            <span class="description">Método testa atribuição de array à função array_intersect_assoc(), do PHP.</span><pre>testArrayIntersectAssoc</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayKeyExistsImplement" title="testArrayKeyExistsImplement :: Método testa função array_key_exists() do PHP. Função verifica se existe
+dado índice no array e retorna true caso ocorra. Essa função é útil e deve ser utilizada
+quando a informação que se deseja é saber se um dado elemento existe. Veja os resultados
+não satisfatórios que uma abordagem com isset() poderia trazer:">
+            <span class="description">Método testa função array_key_exists() do PHP. Função verifica se existe
+dado índice no array e retorna true caso ocorra. Essa função é útil e deve ser utilizada
+quando a informação que se deseja é saber se um dado elemento existe. Veja os resultados
+não satisfatórios que uma abordagem com isset() poderia trazer:</span><pre>testArrayKeyExistsImplement</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayKeysImplement" title="testArrayKeysImplement :: Método testa função array_keys do PHP. Quando um array é passado à função,
+a mesma retornará um novo array, com os elementos desse último como valores
+e os índices, dessa vez, númericamente indexados.">
+            <span class="description">Método testa função array_keys do PHP. Quando um array é passado à função,
+a mesma retornará um novo array, com os elementos desse último como valores
+e os índices, dessa vez, númericamente indexados.</span><pre>testArrayKeysImplement</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayMap" title="testArrayMap :: Método implementa teste à função array_map() do PHP.">
+            <span class="description">Método implementa teste à função array_map() do PHP.</span><pre>testArrayMap</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayMerge" title="testArrayMerge :: Método implementa função array_merge() do PHP. A função faz, como o nome diz, um merge entre
+arrays. A função não espera um valor máximo de arrays recebidos via parâmetro, porém, deve-se
+passar o mínimo de 2 arrays, em sua chamada. A função retorna um array contendo todos os elementos
+existentes em todos os arrays, porém, caso ache-se duplicidade em índices associativos, e tão somente
+nos associativos, pois a duplicidade de índices numéricos é contornata e o elemento é alocado em outro
+índice numérico, ou seja, caso exista o mesmo índice ASSOCIATIVO em dois arrays, o valor que prevalecerá,
+será o valor do último array, na ordem de argumentos passados à função. Observe o print_r()
+do array de retorno.">
+            <span class="description">Método implementa função array_merge() do PHP. A função faz, como o nome diz, um merge entre
+arrays. A função não espera um valor máximo de arrays recebidos via parâmetro, porém, deve-se
+passar o mínimo de 2 arrays, em sua chamada. A função retorna um array contendo todos os elementos
+existentes em todos os arrays, porém, caso ache-se duplicidade em índices associativos, e tão somente
+nos associativos, pois a duplicidade de índices numéricos é contornata e o elemento é alocado em outro
+índice numérico, ou seja, caso exista o mesmo índice ASSOCIATIVO em dois arrays, o valor que prevalecerá,
+será o valor do último array, na ordem de argumentos passados à função. Observe o print_r()
+do array de retorno.</span><pre>testArrayMerge</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayReplace" title="testArrayReplace :: Método implementa chamada à função array_replace() do PHP. Função, diferentemente da função array_merge(),
+vista no método acima, implementa substituição tanto de índices associativos, quanto de índices numéricos.">
+            <span class="description">Método implementa chamada à função array_replace() do PHP. Função, diferentemente da função array_merge(),
+vista no método acima, implementa substituição tanto de índices associativos, quanto de índices numéricos.</span><pre>testArrayReplace</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayReverse" title="testArrayReverse :: Método implementa função array_reverse() do PHP. Função inverte ordem dos valores, sendo, sendo o último
+elemento colocado em primeiro e vice-versa. Para índices numéricos ocorre perda de relação índice/chave,
+porém, índices associativos são mantidos.">
+            <span class="description">Método implementa função array_reverse() do PHP. Função inverte ordem dos valores, sendo, sendo o último
+elemento colocado em primeiro e vice-versa. Para índices numéricos ocorre perda de relação índice/chave,
+porém, índices associativos são mantidos.</span><pre>testArrayReverse</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayShift" title="testArrayShift :: Método implementa chamada à função array_shift() do PHP. A função retira o primerio elemento do
+array passado e retorna seu valor, deixando o array passado sem o primeiro elemento.">
+            <span class="description">Método implementa chamada à função array_shift() do PHP. A função retira o primerio elemento do
+array passado e retorna seu valor, deixando o array passado sem o primeiro elemento.</span><pre>testArrayShift</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArraySlice" title="testArraySlice :: Método implementa atruição de um tipo array à função array_slice() do PHP.">
+            <span class="description">Método implementa atruição de um tipo array à função array_slice() do PHP.</span><pre>testArraySlice</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArraySum" title="testArraySum :: Método retorna soma de todos os valores numéricos do array.">
+            <span class="description">Método retorna soma de todos os valores numéricos do array.</span><pre>testArraySum</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayUnique" title="testArrayUnique :: Método implementa função array_unique() do PHP. Função retira duplicidade de valores de índices do array passado.">
+            <span class="description">Método implementa função array_unique() do PHP. Função retira duplicidade de valores de índices do array passado.</span><pre>testArrayUnique</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayValuesImplement" title="testArrayValuesImplement :: Método testa função array_values do PHP. Quando um array é passado à função
+a mesma devolve um novo array, com os valores do antigo, porém, com novos índices,
+dessa vez numericamente indexados.">
+            <span class="description">Método testa função array_values do PHP. Quando um array é passado à função
+a mesma devolve um novo array, com os valores do antigo, porém, com novos índices,
+dessa vez numericamente indexados.</span><pre>testArrayValuesImplement</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testArrayWalk" title="testArrayWalk :: Método implementa função array_walk(), que possibilita o uso de função callback, para tratamento de valores e/ou
+índices do array navegado. Função muito útil, e em adição à função array_map(), ela permite alteração também dos
+índices, equanto a array_map() somente de valores.">
+            <span class="description">Método implementa função array_walk(), que possibilita o uso de função callback, para tratamento de valores e/ou
+índices do array navegado. Função muito útil, e em adição à função array_map(), ela permite alteração também dos
+índices, equanto a array_map() somente de valores.</span><pre>testArrayWalk</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testInArrayImplement" title="testInArrayImplement :: Método testa função in_array() do PHP. Função verifica se existe dado
+valor em qualquer um dos índices do array passado e retorna true caso
+ocorra.">
+            <span class="description">Método testa função in_array() do PHP. Função verifica se existe dado
+valor em qualquer um dos índices do array passado e retorna true caso
+ocorra.</span><pre>testInArrayImplement</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testInsertion" title="testInsertion :: Método verifica forma de iteração em inserção de elementos em um array. Observa-se
+que o primeiro índice numérico é 4, porém, somente ele e o índice 0 foram explicitamente
+declarados, o outro índice numérico, que possui valor &#039;um&#039;, não foi explicitamente declarado,
+porém, verifica-se que o índice criado para ele, é o 5, uma vez que foi declarado o índice
+4. Sendo assim conclui-se que o PHP não se importa com posições de indexação vazias, ele
+sempre criará um índice incrementando um ao índice de maior posição.">
+            <span class="description">Método verifica forma de iteração em inserção de elementos em um array. Observa-se
+que o primeiro índice numérico é 4, porém, somente ele e o índice 0 foram explicitamente
+declarados, o outro índice numérico, que possui valor &#039;um&#039;, não foi explicitamente declarado,
+porém, verifica-se que o índice criado para ele, é o 5, uma vez que foi declarado o índice
+4. Sendo assim conclui-se que o PHP não se importa com posições de indexação vazias, ele
+sempre criará um índice incrementando um ao índice de maior posição.</span><pre>testInsertion</pre>
+        </a>
+    </li>
+
+                                                                                                        <li class="method public">
+        <a href="#method_testList" title="testList :: Método implementa função (ou melhor, construtor de linguagem list()). Função atribui
+valor de dada posição à variável atribuída, seguindo-se a ordem de ocorrência. No exemplo
+abaixo.">
+            <span class="description">Método implementa função (ou melhor, construtor de linguagem list()). Função atribui
+valor de dada posição à variável atribuída, seguindo-se a ordem de ocorrência. No exemplo
+abaixo.</span><pre>testList</pre>
+        </a>
+    </li>
+
+                                                </ul>
+        </li>
+        <li class="nav-header protected">» Protected
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+        </li>
+        <li class="nav-header private">» Private
+            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+        </li>
+        <li class="nav-header">
+            <i class="icon-custom icon-constant"></i> Constants
+            <ul>
+                            </ul>
+        </li>
+    </ul>
+
+
+        </div>
+
+        <div class="span8">
+            <div class="element class">
+                <h1>ArraysTest</h1>
+                <small style="display: block; text-align: right">
+                                            Extends \PHPUnit_Framework_TestCase
+                                                        </small>
+                <p class="short_description">Classe de testes do objeto Arrays
+Observações:</p>
+                <div class="details">
+                    <div class="long_description">
+                        <p>PHP provides a great amount of flexibility in how numeric keys can be
+assigned to arrays: numeric keys can be any integer number (both negative
+and positive), and they don’t need to be sequential, so a large gap can exist
+between the indices of two consecutive values without the need to create
+intermediate values to cover every possible key in between. Moreover, the
+keys of an array do not determine the order of its elements—as we saw earlier
+when we created an enumerative array with keys that were out of natural
+order</p>
+<p>When an element is added to an array without specifying a key, PHP
+automatically assigns a numeric one that is equal to the greatest numeric key
+already in existence in the array, plus one</p>
+<p>Note that array keys are case-sensitive, but type insensitive. Thus, the key
+'A' is different from the key 'a' , but the keys '1' and 1 are the same.
+However, the conversion is only applied if a string key contains the traditional
+decimal representation of a number; thus, for example, the key '01' is not
+the same as the key 1 . Attempting to use a float as a key will convert it to an
+integer key, so that '12.5' becomes '12' . Using boolean values of true and
+false as keys will cast them to 1 and 0 respectively, while using NULL will
+actually cause them to be stored under the empty string &quot;&quot; . Finally, arrays
+and objects cannot be used as keys.</p>
+                    </div>
+                    <table class="table table-bordered">
+                                                                                    <tr>
+                                    <th>
+                                        author
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Thiago Mallon <a href="mailto:thiagomallon@gmail.com">thiagomallon@gmail.com</a></p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        group
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Arrays</p>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <th>
+                                        group
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Arrays/ArraysTest</p>
+                                    </td>
+                                </tr>
+                                                                                                                <tr>
+                                    <th>
+                                        package
+                                                                            </th>
+                                    <td>
+                                                                                    
+                                                                                <p>Default</p>
+                                    </td>
+                                </tr>
+                                                                                                                                                                                </table>
+
+                    <h3><i class="icon-custom icon-method"></i> Methods</h3>
+                                                                <a id="method_setUp"></a>
+                        <div class="element clickable method public  method_setUp" data-toggle="collapse" data-target=".method_setUp .collapse">
+                            <h2>Sets up the fixture, for example, opens a network connection.</h2>
+                            <pre>setUp() </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>This method is called before a test is executed.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_tearDown"></a>
+                        <div class="element clickable method public  method_tearDown" data-toggle="collapse" data-target=".method_tearDown .collapse">
+                            <h2>Tears down the fixture, for example, closes a network connection.</h2>
+                            <pre>tearDown() </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>This method is called after a test is executed.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayCombine"></a>
+                        <div class="element clickable method public  method_testArrayCombine" data-toggle="collapse" data-target=".method_testArrayCombine .collapse">
+                            <h2>Método testa implementação da função array_combine() do PHP. Verifica-se que a função combina
+dois arrays, através da seguinte abordagem: Os valores do array do primeiro parâmetro serão
+as chaves dos valores do array do segundo parâmetro, sendo assim uma combinação dos valores dos
+dois arrays, porém, os valores do primeiro sendo convertidos em índices. A função retorna um
+terceiro array com a implementação. É importante ressaltar que ambos arrays a serem combinados,
+devem ter exatamente o mesmo número de elementos, do contrário um warning é gerado.</h2>
+                            <pre>testArrayCombine() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayCountValues"></a>
+                        <div class="element clickable method public  method_testArrayCountValues" data-toggle="collapse" data-target=".method_testArrayCountValues .collapse">
+                            <h2>Método implementa teste à função array_count_values() do PHP.</h2>
+                            <pre>testArrayCountValues() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Função conta quantas vezes um mesmo valor ocorre no array passado e retorna um outro array, com dodos os valores
+e a quantidade de suas ocorrências. O Array possui então, os valores nos lugares dos índices e a quantidade de
+ocorrência daquele valor, em seus valor. Observe o que se imprime na função print_r();</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayFillKeys"></a>
+                        <div class="element clickable method public  method_testArrayFillKeys" data-toggle="collapse" data-target=".method_testArrayFillKeys .collapse">
+                            <h2>Método implementa função array_fill_keys() do PHP. A função recebe dois parâmetros, o primeiro é o
+array e o segundo é o novo valor, que será atribuído à todos os elementos do array. A função transforma
+os valores do array passado em chaves e atribui o segundo parâmetro recebido pela função como valor
+à todos os novos índices. É importante lembrar que uma vez que existam valores duplicados, os mesmos serão
+retirados, uma vez que os índices do array devem ser únicos. No array de exemplo abaixo, declaro dois valores
+&#039;mingal&#039;, porém, array retornado da função array_fill_keys() possui apenas um índice &#039;mingal&#039;;</h2>
+                            <pre>testArrayFillKeys() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayFlipImplement"></a>
+                        <div class="element clickable method public  method_testArrayFlipImplement" data-toggle="collapse" data-target=".method_testArrayFlipImplement .collapse">
+                            <h2>Método testa função array_flip do PHP. Função recebe um array e devolve o mesmo com índices
+e valores invertidos, ou seja, índice no lugar do valor e vice-versa.</h2>
+                            <pre>testArrayFlipImplement() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayIntersect"></a>
+                        <div class="element clickable method public  method_testArrayIntersect" data-toggle="collapse" data-target=".method_testArrayIntersect .collapse">
+                            <h2>Método implementa função array_intersect() do PHP, e testa sua atuação.</h2>
+                            <pre>testArrayIntersect() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>A função array_intersect() espera dois parâmetros o primeiro é o array
+a ser comparado e o segundo é o array a comparar. A função retorna um
+terceiro array, com os elementos do primeiro, que possuírem valores
+existentes entre os elementos do segundo array. Observe o array de retorno
+atribuído à função var_dump().
+O array retornado se caracteriza por conter os elementos do primeiro
+elemento, que por sua vez tenham valores existentes em qualquer dos elementos do segundo,
+não importando a coincidência dos índices, mas tão somente os valores.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayIntersectAssoc"></a>
+                        <div class="element clickable method public  method_testArrayIntersectAssoc" data-toggle="collapse" data-target=".method_testArrayIntersectAssoc .collapse">
+                            <h2>Método testa atribuição de array à função array_intersect_assoc(), do PHP.</h2>
+                            <pre>testArrayIntersectAssoc() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Função array_intersect_assoc(), compara dois array e retorna um terceiro array
+com os elementos em que coincidem tanto índice quanto valor. Nos dois arrays de
+teste, o único elemento que ocorre com mesmo valor e índice em ambos é o de índice
+'Carlos', sendo assim esse o único elemento que existirá no array retornado da função.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayKeyExistsImplement"></a>
+                        <div class="element clickable method public  method_testArrayKeyExistsImplement" data-toggle="collapse" data-target=".method_testArrayKeyExistsImplement .collapse">
+                            <h2>Método testa função array_key_exists() do PHP. Função verifica se existe
+dado índice no array e retorna true caso ocorra. Essa função é útil e deve ser utilizada
+quando a informação que se deseja é saber se um dado elemento existe. Veja os resultados
+não satisfatórios que uma abordagem com isset() poderia trazer:</h2>
+                            <pre>testArrayKeyExistsImplement() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>$a = ['1st'=&gt;null, '2nd'='second'];
+isset($a['1st']); // false</p>
+<p>Verifica-se que mesmo o índice '1st' existindo, o resultado é false, isso pq o que está
+sendo comparado é o valor do elemento e não seu índice. Por isso utilizar a função
+array_key_exists() é a abordagem correta e a única satisfatória.</p>
+<p>Por sua vez, se quisermos saber se um elemento (valor) existe em um dado array,
+a função para tal tarefa á a in_array();</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayKeysImplement"></a>
+                        <div class="element clickable method public  method_testArrayKeysImplement" data-toggle="collapse" data-target=".method_testArrayKeysImplement .collapse">
+                            <h2>Método testa função array_keys do PHP. Quando um array é passado à função,
+a mesma retornará um novo array, com os elementos desse último como valores
+e os índices, dessa vez, númericamente indexados.</h2>
+                            <pre>testArrayKeysImplement() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayMap"></a>
+                        <div class="element clickable method public  method_testArrayMap" data-toggle="collapse" data-target=".method_testArrayMap .collapse">
+                            <h2>Método implementa teste à função array_map() do PHP.</h2>
+                            <pre>testArrayMap() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>A função submete cada elemento do array passado à uma função callback, que pode ser tanto uma função externa,
+ou um método (em caso de escopo de classe), ou um closure. No exemplo abaixo utilizamos um closure como a função
+callback. O closure receberá cada elemento do array e poderá então alterar o valor de cada índice recebido.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayMerge"></a>
+                        <div class="element clickable method public  method_testArrayMerge" data-toggle="collapse" data-target=".method_testArrayMerge .collapse">
+                            <h2>Método implementa função array_merge() do PHP. A função faz, como o nome diz, um merge entre
+arrays. A função não espera um valor máximo de arrays recebidos via parâmetro, porém, deve-se
+passar o mínimo de 2 arrays, em sua chamada. A função retorna um array contendo todos os elementos
+existentes em todos os arrays, porém, caso ache-se duplicidade em índices associativos, e tão somente
+nos associativos, pois a duplicidade de índices numéricos é contornata e o elemento é alocado em outro
+índice numérico, ou seja, caso exista o mesmo índice ASSOCIATIVO em dois arrays, o valor que prevalecerá,
+será o valor do último array, na ordem de argumentos passados à função. Observe o print_r()
+do array de retorno.</h2>
+                            <pre>testArrayMerge() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayReplace"></a>
+                        <div class="element clickable method public  method_testArrayReplace" data-toggle="collapse" data-target=".method_testArrayReplace .collapse">
+                            <h2>Método implementa chamada à função array_replace() do PHP. Função, diferentemente da função array_merge(),
+vista no método acima, implementa substituição tanto de índices associativos, quanto de índices numéricos.</h2>
+                            <pre>testArrayReplace() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayReverse"></a>
+                        <div class="element clickable method public  method_testArrayReverse" data-toggle="collapse" data-target=".method_testArrayReverse .collapse">
+                            <h2>Método implementa função array_reverse() do PHP. Função inverte ordem dos valores, sendo, sendo o último
+elemento colocado em primeiro e vice-versa. Para índices numéricos ocorre perda de relação índice/chave,
+porém, índices associativos são mantidos.</h2>
+                            <pre>testArrayReverse() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayShift"></a>
+                        <div class="element clickable method public  method_testArrayShift" data-toggle="collapse" data-target=".method_testArrayShift .collapse">
+                            <h2>Método implementa chamada à função array_shift() do PHP. A função retira o primerio elemento do
+array passado e retorna seu valor, deixando o array passado sem o primeiro elemento.</h2>
+                            <pre>testArrayShift() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArraySlice"></a>
+                        <div class="element clickable method public  method_testArraySlice" data-toggle="collapse" data-target=".method_testArraySlice .collapse">
+                            <h2>Método implementa atruição de um tipo array à função array_slice() do PHP.</h2>
+                            <pre>testArraySlice() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Função tem capacidade de retornar parte do array. Em seu primeiro argumento recebe o parâmetro
+a ser recortado, no segundo parâmetro especifica-se à partir de qual índice será feito o corte,
+o terceiro parâmetro especifica até qual posição será o corte, o quarto parâmetro é usado para
+solicitar ou não a reordenação do array. A função retorna o array recortado. Nota-se que quando
+é atribuído um array associativo, os índices não são reordenados e refere-se aos índices com os
+seus relativos numéricos e não a string associativa.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArraySum"></a>
+                        <div class="element clickable method public  method_testArraySum" data-toggle="collapse" data-target=".method_testArraySum .collapse">
+                            <h2>Método retorna soma de todos os valores numéricos do array.</h2>
+                            <pre>testArraySum() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Observações: Quando um elemento possui valores alfanuméricos, a menos que esse valor
+alfanumérico comece com representações numéricas ('345cdf') o elemento não será incluido
+na soma, e também quando inicia com dígitos, obviamente que somente os dígitos serão
+incluídos na soma.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayUnique"></a>
+                        <div class="element clickable method public  method_testArrayUnique" data-toggle="collapse" data-target=".method_testArrayUnique .collapse">
+                            <h2>Método implementa função array_unique() do PHP. Função retira duplicidade de valores de índices do array passado.</h2>
+                            <pre>testArrayUnique() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"><p>Caso ocorra, em um array numericamente indexado, em seus índices 2 e 10, o mesmo valor de 'cinco'. Ex: [2 =&gt; 'cinco', 10 =&gt; 'cinco'];
+Então, depois de o array ser atribuído à função array_unique(), somente o índice 2 aparecerá, já que a função elimina as demais duplicidades,
+partindo da primeira ocorrência do valor.
+Observa-se que independentemente do índice ser numérico ou associativo, a primeira ocorrência do valor é a que permanece, ela
+e seu respectivo índice.</p></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayValuesImplement"></a>
+                        <div class="element clickable method public  method_testArrayValuesImplement" data-toggle="collapse" data-target=".method_testArrayValuesImplement .collapse">
+                            <h2>Método testa função array_values do PHP. Quando um array é passado à função
+a mesma devolve um novo array, com os valores do antigo, porém, com novos índices,
+dessa vez numericamente indexados.</h2>
+                            <pre>testArrayValuesImplement() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testArrayWalk"></a>
+                        <div class="element clickable method public  method_testArrayWalk" data-toggle="collapse" data-target=".method_testArrayWalk .collapse">
+                            <h2>Método implementa função array_walk(), que possibilita o uso de função callback, para tratamento de valores e/ou
+índices do array navegado. Função muito útil, e em adição à função array_map(), ela permite alteração também dos
+índices, equanto a array_map() somente de valores.</h2>
+                            <pre>testArrayWalk() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testInArrayImplement"></a>
+                        <div class="element clickable method public  method_testInArrayImplement" data-toggle="collapse" data-target=".method_testInArrayImplement .collapse">
+                            <h2>Método testa função in_array() do PHP. Função verifica se existe dado
+valor em qualquer um dos índices do array passado e retorna true caso
+ocorra.</h2>
+                            <pre>testInArrayImplement() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testInsertion"></a>
+                        <div class="element clickable method public  method_testInsertion" data-toggle="collapse" data-target=".method_testInsertion .collapse">
+                            <h2>Método verifica forma de iteração em inserção de elementos em um array. Observa-se
+que o primeiro índice numérico é 4, porém, somente ele e o índice 0 foram explicitamente
+declarados, o outro índice numérico, que possui valor &#039;um&#039;, não foi explicitamente declarado,
+porém, verifica-se que o índice criado para ele, é o 5, uma vez que foi declarado o índice
+4. Sendo assim conclui-se que o PHP não se importa com posições de indexação vazias, ele
+sempre criará um índice incrementando um ao índice de maior posição.</h2>
+                            <pre>testInsertion() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testList"></a>
+                        <div class="element clickable method public  method_testList" data-toggle="collapse" data-target=".method_testList .collapse">
+                            <h2>Método implementa função (ou melhor, construtor de linguagem list()). Função atribui
+valor de dada posição à variável atribuída, seguindo-se a ordem de ocorrência. No exemplo
+abaixo.</h2>
+                            <pre>testList() : void</pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                                                                <h3><i class="icon-custom icon-property"></i> Properties</h3>
+                                                    <a id="property_setOfStuff"> </a>
+                            <div class="element clickable property  protected property_setOfStuff" data-toggle="collapse" data-target=".property_setOfStuff .collapse">
+                                <h2>Propriedade consiste-se em um array de elementos variados, para fins de testes.</h2>
+                                <pre>setOfStuff : array</pre>
+                                <div class="labels">
+                                                                                                        </div>
+                                <div class="row collapse">
+                                    <div class="detail-description">
+                                        <div class="long_description"></div>
+
+                                        <table class="table">
+                                                                                            <tr>
+                                                    <th>
+                                                        var
+                                                    </th>
+                                                    <td>
+                                                                                                                    
+                                                                                                            </td>
+                                                </tr>
+                                                                                    </table>
+
+                                                                                    <h3>Type(s)</h3>
+                                            <code>array</code>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+            <a id="\Test\Arrays\ArraysTest"></a>
+            <ul class="breadcrumb">
+                <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
+                    
+    
+    <li><span class="divider">\</span><a href="../namespaces/Test.Arrays.html">Arrays</a></li>
+
+                <li class="active"><span class="divider">\</span><a href="../classes/Test.Arrays.ArraysTest.html">ArraysTest</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+        <footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by
+            <a href="http://glyphicons.com/">Glyphicons</a>.<br/>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
+            generated on Mon, 18 May 2015 18:41:03 -0300.<br/>
+    </footer>
+    </body>
+</html>

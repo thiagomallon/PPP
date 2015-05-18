@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>RepCertification</title>
+    <parser>
+        <target>./data/documentation/parser</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+            <extension>php3</extension>
+            <extension>phtml</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>./data/documentation/transformation</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>./data/documentation/log/{DATE}.log</default>
+            <errors>./data/documentation/log/{DATE}.errors.log</errors>
+        </paths>
+    </logging>
+    <transformations>
+        <template name="responsive-twig" />
+    </transformations>
+    <files>        
+        <directory>./src/</directory>
+        <directory>./test/</directory>        
+    </files>
+</phpdoc>

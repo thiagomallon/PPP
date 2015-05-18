@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"assertArray",
+				"assertArrayHasKey"
+			],
+			[
+				"_",
+				"_setOfStuff"
+			],
+			[
+				"Chri",
+				"ChristmasEmailBody"
+			],
+			[
+				"Class",
+				"ClasseAbs"
+			],
+			[
+				"Minga",
+				"MingalB"
+			],
+			[
+				"takingWi",
+				"takingWithPostAndSocket"
+			],
+			[
+				"testCl",
+				"testClassPath"
+			],
+			[
+				"tre",
+				"treatTestClassPath"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"nm",
+				"nmpd	Create namespace doc block"
+			],
+			[
+				"mark",
+				"markTestIncomplete"
+			],
+			[
+				"OO",
+				"OODaughter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"last_filter": "phpunit",
+		"selected_items":
+		[
+			[
+				"phpunit",
+				"PHPUnit: Run with params"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"phpunit ",
+				"PHPUnit: Run with params"
+			],
+			[
+				"php",
+				"PHPUnit: Run with params"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpuni",
+				"PHPUnit: Run"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/PPP",
+		"/var/www/html/RepCertification/data",
+		"/var/www/html/RepCertification/data/test-logs/html-code-coverage",
+		"/var/www/html/RepCertification/src",
+		"/var/www/html/RepCertification/src/DatabasesSQL",
+		"/var/www/html/RepCertification/src/InputOutput",
+		"/var/www/html/RepCertification/test",
+		"/var/www/html/RepCertification/test/Arrays",
+		"/var/www/html/RepCertification/test/InputOutput",
+		"/var/www/html/RepCertification/test/StringsAndPatterns",
+		"/var/www/html/MProj/src",
+		"/var/www/html/MProj/src/Lib",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern"
+	],
+	"file_history":
+	[
+		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
+		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffMother.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SingWithTongue.php",
+		"/var/www/html/RepCertification/src/OOProgramming/MagicMethods.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/FindFoodAdapter.php",
+		"/var/www/html/RepCertification/test/InputOutput/PageContentTakerTest.php",
+		"/var/www/html/RepCertification/src/InputOutput/PageContentTaker.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/SapiensMale.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/SapiensAbstract.php",
+		"/var/www/html/testing-implements.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayCallbacksTest.php",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-46/phpdoc-cache-file_8496026e9f643487865fa482f06e2e7a.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-92/phpdoc-cache-file_ee7ed29ac782623c82edb6936b3be630.dat",
+		"/var/www/html/RepCertification/data/documentation/transformation/classes/App.OOProgramming.MagicMethods.html",
+		"/var/www/html/RepCertification/data/test-logs/html-code-coverage/OOProgramming/MagicMethods.php.html",
+		"/var/www/html/RepCertification/public/lib/angular-mocks/package.json",
+		"/var/www/html/RepCertification/public/lib/angular-route/package.json",
+		"/var/www/html/RepCertification/public/lib/angular/package.json",
+		"/var/www/html/RepCertification/test/OOProgramming/MagicMethodsTest.php",
+		"/var/www/html/RepCertification/test/StringsAndPatterns/PregMatchTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/clst.sublime-snippet",
+		"/var/www/html/RepCertification/test/Arrays/ArrayPointerTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpd.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpb.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meta.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/itf.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/clsa.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/gset.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mdoc.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/met.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmp.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmpd.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/tfix.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpv.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/gsets.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mets.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mett.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/trt.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/vdoc.sublime-snippet",
+		"/var/www/html/RepCertification/test/Arrays/Arrays1Test.php",
+		"/var/www/html/RepCertification/public/index.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/EmailBody.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/EmailBodyDecorator.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/CostStrategy.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/exec.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/Email.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/ChristmasEmailBody.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/NewYearEmailBody.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/FixedCostStrategy.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/Lecture.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/Lesson.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/Seminar.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/exec.php",
+		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/DecoratorStuff.php",
+		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/TimedCostStrategy.php",
+		"/var/www/html/interface_injection.php",
+		"/var/www/html/MProj/exec.php",
+		"/var/www/html/MProj/src/Lib/Lessons/CostStrategy.php",
+		"/var/www/html/MProj/src/Lib/Lessons/Lesson.php",
+		"/var/www/html/MProj/src/Lib/Lessons/Seminar.php",
+		"/var/www/html/MProj/src/Lib/Lessons/Lecture.php",
+		"/var/www/html/MProj/src/Lib/Lessons/FixedCostStrategy.php",
+		"/var/www/html/MProj/src/Lib/Lessons/TimedCostStrategy.php",
+		"/var/www/html/MProj/src/Lib/Lessons/exec.php",
+		"/var/www/html/MProj/src/Lib/DB/DBAdapter.php",
+		"/var/www/html/MProj/src/lib/db/SqliteAdapter.php",
+		"/var/www/html/MProj/src/lib/db/MySqlAdapter.php",
+		"/var/www/html/MProj/src/Util/CPFValidator.php",
+		"/var/www/html/RepCertification/public/files/phones.md",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatching.php",
+		"/var/www/html/RepCertification/public/form.php",
+		"/var/www/html/RepCertification/public/files/html-sample.html",
+		"/var/www/html/RepCertification/html-sample.html",
+		"/var/www/html/RepCertification/public/files/html_sample.html",
+		"/var/www/html/RepCertification/public/files/php_wiki.txt",
+		"/var/www/html/RepCertification/data/streams/PSkelG.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingReplace.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingFilter.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingAll.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMathingSplit.php",
+		"/var/www/html/RepCertification/src/InputOutput/ResourceStream.php",
+		"/home/yslave/Dropbox/PHP/REGEX/src/Lib/PageContentTaker.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/SapiensSurviveAdapter.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/SapiensFemale.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/SapiensFactory.php",
+		"/var/www/html/RepCertification/src/DesignPatterns/MammalSurvive.php",
+		"/var/www/html/stream_context_create.php",
+		"/var/www/html/pskelg.php",
+		"/home/yslave/Dropbox/PHP/REGEX/public/index.php",
+		"/home/yslave/Dropbox/PHP/REGEX/src/PageContentTaker.php",
+		"/var/www/html/MProj/config/application.config.php",
+		"/var/www/html/MProj/composer.json",
+		"/var/www/html/MProj/src/Controller/LoginController.php",
+		"/var/www/html/MProj/src/Controller/IndexController.php",
+		"/var/www/html/MProj/src/Model/User.php",
+		"/var/www/html/MProj/src/lib/db/DBAdapter.php",
+		"/var/www/html/MProj/public/index.php",
+		"/var/www/html/MProj/data/mine-stuffs/ComposerCustomization.php",
+		"/var/www/html/MProj/phpunit.xml.dist",
+		"/var/www/html/RepCertification/test/bootstrap.php",
+		"/var/www/html/MProj/phpdoc.dist.xml",
+		"/var/www/html/RepCertification/data/composer-customs/WelcomeAboard.php",
+		"/var/www/html/MProj/data/mine-stuffs/ComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization.php",
+		"/var/www/html/RepCertification/composer.json",
+		"/home/yslave/.config/sublime-text-3/Packages/User/composer-sublime.sublime-settings",
+		"/home/yslave/.config/sublime-text-3/Packages/Composer/composer-sublime.sublime-settings",
+		"/var/www/html/mixPatterns.php",
+		"/usr/apes/other/encomendas.txt",
+		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffDaughter.php",
+		"/var/www/html/RepCertification/src/Patterns/SapiensAbstract.php",
+		"/var/www/html/RepCertification/src/OOProgramming/LateStaticMother.php",
+		"/var/www/html/RepCertification/src/OOProgramming/LateStaticDaughter.php",
+		"/var/www/html/RepCertification/test/OOProgramming/LateStaticDaughterTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/smet.sublime-snippet",
+		"/var/www/html/RepCertification/src/OOProgramming/MotherLateStatic.php",
+		"/var/www/html/RepCertification/src/OOProgramming/DaughterLateStatic.php",
+		"/var/www/html/RepCertification/src/Patterns/SapiensMale.php",
+		"/var/www/html/RepCertification/src/Patterns/SapiensSurviveAdapter.php",
+		"/var/www/html/RepCertification/src/Patterns/SapiensFemale.php",
+		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
+		"/var/www/html/RepCertification/test/OOProgramming/PeculiarCallsTest.php",
+		"/var/www/html/RepCertification/src/Patterns/SapiensFactory.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/sgset.sublime-snippet",
+		"/var/www/html/sigletando.php",
+		"/var/www/html/RepCertification/test/OOProgramming/UNSerializingTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/cls.sublime-snippet",
+		"/var/www/html/RepCertification/src/Patterns/FindFoodAdapter.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/html/RepCertification",
+			"/var/www/html/MProj",
+			"/var/www/html/RepCertification",
+			"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern",
+			"/var/www/html/RepCertification/src/DesignPatterns",
+			"/var/www/html/RepCertification",
+			"/var/www/html/monolog/tests"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"testRSort",
+			"echo",
+			"var_dump(",
+			"$localSet",
+			"        print ",
+			"array_walk",
+			"list",
+			"echo(?:\\s)?(['\"].*['\"])",
+			"echo(?:\\s)?(['|\"].*['\"])",
+			"eMail(",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"eMail",
+			"email",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"eMail",
+			"email",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"eMail",
+			"email",
+			"Email",
+			"email",
+			"eMail",
+			"Email",
+			"eMail",
+			"emailBody",
+			"EmailBody",
+			"emailBody",
+			"EmailBody",
+			"emailBody",
+			"eMailBody",
+			"emailBody",
+			"eMailBody",
+			"\\Lessons",
+			"App\\Lib\\Lessons",
+			"var1",
+			"php",
+			"\\Patterns",
+			"valores",
+			"jasmine/lib",
+			"documentation",
+			"WelcomeAboard",
+			"ComposerCustoms",
+			"LateStaticMother",
+			"LateStaticDaughter",
+			"_closures",
+			"$name",
+			"SapiensInterface",
+			"SapiensAdapter",
+			"OOProgramming",
+			"OOGrandMa",
+			"OOMother",
+			"OODaughter",
+			"property1",
+			"getMock"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"print",
+			"* ",
+			"print($1)",
+			"\\Patterns\\StrategyPattern",
+			"App\\Lib\\Patterns\\StrategyPattern",
+			"\\DesignPatterns",
+			"StaticStuffMother",
+			"StaticStuffDaughter",
+			"GrandMa",
+			"Mother",
+			"Daughter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 143.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ppp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
