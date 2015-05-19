@@ -12,4 +12,11 @@ The objective is implement something simple, but useful and respecting the conve
 
 *by Thiago Mallon*
 
+![Gang Of Four](public/img/GOF.jpg "The Gang of Four")
+![Robert C. Martin](public/img/Robert_C_Martin.png "Robert C. Martin")
+![Martin Fowler](public/img/Marting_Fowler.png "Martin Fowler")
+![Rasmus Lerdor](public/img/Rasmus_Lerdorf.jpg "Rasmus Lerdor")
+![And Gutmans](public/img/Andi_Gutmans.jpg "And Gutmans")
+![Zeev Suraski](public/img/Zeev_Suraski.jpg "Zeev Suraski")
+
 
