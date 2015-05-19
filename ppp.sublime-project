@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
+			"path": "/var/www/html/RepCertification"
+		},
+		{
 			"path": "."
 		},
 		{
 			"path": "/var/www/html/MProj"
-		},
-		{
-			"path": "/var/www/html/RepCertification"
 		}
 	]
 }
