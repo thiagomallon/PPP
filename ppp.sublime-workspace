@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"nm",
+				"nmp	Create namespace with doc block"
+			],
+			[
+				"earthSe",
+				"earthSeaFishes"
+			],
+			[
 				"array_key",
 				"array_key_exists"
 			],
@@ -46,10 +54,6 @@
 			[
 				"str_re",
 				"str_replace"
-			],
-			[
-				"nm",
-				"nmpd	Create namespace doc block"
 			],
 			[
 				"mark",
@@ -132,22 +136,40 @@
 	"expanded_folders":
 	[
 		"/var/www/html/PPP",
-		"/var/www/html/RepCertification/data",
-		"/var/www/html/RepCertification/data/test-logs/html-code-coverage",
-		"/var/www/html/RepCertification/src",
-		"/var/www/html/RepCertification/src/DatabasesSQL",
-		"/var/www/html/RepCertification/src/InputOutput",
-		"/var/www/html/RepCertification/test",
-		"/var/www/html/RepCertification/test/Arrays",
-		"/var/www/html/RepCertification/test/InputOutput",
-		"/var/www/html/RepCertification/test/StringsAndPatterns",
+		"/var/www/html/PPP/data",
+		"/var/www/html/PPP/data/composer-customs",
+		"/var/www/html/MProj",
 		"/var/www/html/MProj/src",
 		"/var/www/html/MProj/src/Lib",
-		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern",
-		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern"
+		"/var/www/html/MProj/src/Lib/Patterns",
+		"/var/www/html/RepCertification/data",
+		"/var/www/html/RepCertification/data/composer-customs"
 	],
 	"file_history":
 	[
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/EarthSea.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Interfaces/Sea.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/ScenarioPrototype.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/exec.php",
+		"/var/www/html/prototype-cloning-issues.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/EarthSeaFishes.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmp.sublime-snippet",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/EarthPlains.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/MarsPlains.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/MarsForest.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/EarthForest.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/MarsSea.php",
+		"/var/www/html/PPP/composer.json",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Interfaces/Plains.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Interfaces/Forest.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Plains.php",
+		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Plains.ph",
+		"/var/www/html/RepCertification/composer.json",
+		"/var/www/html/PPP/data/composer-customs/WelcomeAboard.php",
+		"/var/www/html/RepCertification/data/composer-customs/WelcomeAboard.php",
+		"/var/www/html/PPP/ppp.sublime-project",
+		"/var/www/html/RepCertification/public/index.php",
+		"/var/www/html/PPP/public/index.php",
 		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
 		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
 		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffMother.php",
@@ -179,7 +201,6 @@
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/gset.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mdoc.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/met.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmp.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmpd.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/tfix.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpv.sublime-snippet",
@@ -189,7 +210,6 @@
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/trt.sublime-snippet",
 		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/vdoc.sublime-snippet",
 		"/var/www/html/RepCertification/test/Arrays/Arrays1Test.php",
-		"/var/www/html/RepCertification/public/index.php",
 		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/EmailBody.php",
 		"/var/www/html/MProj/src/Lib/Patterns/DecoratorPattern/EmailBodyDecorator.php",
 		"/var/www/html/MProj/src/Lib/Patterns/StrategyPattern/CostStrategy.php",
@@ -250,32 +270,11 @@
 		"/var/www/html/MProj/phpunit.xml.dist",
 		"/var/www/html/RepCertification/test/bootstrap.php",
 		"/var/www/html/MProj/phpdoc.dist.xml",
-		"/var/www/html/RepCertification/data/composer-customs/WelcomeAboard.php",
 		"/var/www/html/MProj/data/mine-stuffs/ComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization\nComposerCustomization.php",
-		"/var/www/html/RepCertification/composer.json",
 		"/home/yslave/.config/sublime-text-3/Packages/User/composer-sublime.sublime-settings",
 		"/home/yslave/.config/sublime-text-3/Packages/Composer/composer-sublime.sublime-settings",
 		"/var/www/html/mixPatterns.php",
-		"/usr/apes/other/encomendas.txt",
-		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffDaughter.php",
-		"/var/www/html/RepCertification/src/Patterns/SapiensAbstract.php",
-		"/var/www/html/RepCertification/src/OOProgramming/LateStaticMother.php",
-		"/var/www/html/RepCertification/src/OOProgramming/LateStaticDaughter.php",
-		"/var/www/html/RepCertification/test/OOProgramming/LateStaticDaughterTest.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/smet.sublime-snippet",
-		"/var/www/html/RepCertification/src/OOProgramming/MotherLateStatic.php",
-		"/var/www/html/RepCertification/src/OOProgramming/DaughterLateStatic.php",
-		"/var/www/html/RepCertification/src/Patterns/SapiensMale.php",
-		"/var/www/html/RepCertification/src/Patterns/SapiensSurviveAdapter.php",
-		"/var/www/html/RepCertification/src/Patterns/SapiensFemale.php",
-		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
-		"/var/www/html/RepCertification/test/OOProgramming/PeculiarCallsTest.php",
-		"/var/www/html/RepCertification/src/Patterns/SapiensFactory.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/sgset.sublime-snippet",
-		"/var/www/html/sigletando.php",
-		"/var/www/html/RepCertification/test/OOProgramming/UNSerializingTest.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/cls.sublime-snippet",
-		"/var/www/html/RepCertification/src/Patterns/FindFoodAdapter.php"
+		"/usr/apes/other/encomendas.txt"
 	],
 	"find":
 	{

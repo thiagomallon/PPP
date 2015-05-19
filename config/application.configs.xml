@@ -1,0 +1,31 @@
+<!-- 
+    Configurações, uma vez implementadas para development, não precisam ser totalmente 
+    redeclaradas em production. Somente os dados que diferem em valor, precisam ser redeclarados
+-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<ppp-application>
+    <development>
+        <database dbms="mysql">
+            <db-host>localhost</db-host>
+            <db-name>db_ppp</db-name>
+            <db-user>mysql_root</db-user>
+            <db-pass>root123</db-pass>
+        </database>
+        <database dbms="sqlite">
+            <db-host>localhost</db-host>
+            <db-name>db_ppp</db-name>
+            <db-user>sqlite_root</db-user>
+            <db-pass>root123</db-pass>
+        </database>
+    </development>
+    <production>
+        <database dbms="mysql">            
+            <db-user>root</db-user>
+            <db-pass>root</db-pass>
+        </database>
+        <database dbms="sqlite">            
+            <db-user>root</db-user>            
+            <db-pass>root</db-pass>
+        </database>
+    </production>
+</ppp-application>
