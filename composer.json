@@ -25,8 +25,7 @@
     "autoload": {
     	"psr-4": {
     	    "App\\": "src/",
-    	    "Test\\": "test/",
-    	    "ComposerCustoms\\":"data/composer-customs"
+    	    "Test\\": "test/"
     	}
     },
     "suggest": {
@@ -35,22 +34,22 @@
     },
     "scripts": {
         "pre-install-cmd": [       
-            "ComposerCustoms\\WelcomeAboard::preInstall"    
+            "App\\Lib\\CliStuff\\CompCustom::preInstall"    
         ],
         "post-install-cmd": [       
-            "ComposerCustoms\\WelcomeAboard::postInstall"    
+            "App\\Lib\\CliStuff\\CompCustom::postInstall"    
         ],
         "pre-update-cmd": [
-            "ComposerCustoms\\WelcomeAboard::preUpdate"
+            "App\\Lib\\CliStuff\\CompCustom::preUpdate"
         ],
         "post-update-cmd": [        
-            "ComposerCustoms\\WelcomeAboard::postUpdate"    
+            "App\\Lib\\CliStuff\\CompCustom::postUpdate"    
         ],
         "pre-autoload-dump": [        
-            "ComposerCustoms\\WelcomeAboard::preAutoLoadDump"    
+            "App\\Lib\\CliStuff\\CompCustom::preAutoLoadDump"    
         ],
         "post-autoload-dump": [        
-            "ComposerCustoms\\WelcomeAboard::postAutoLoadDump"    
+            "App\\Lib\\CliStuff\\CompCustom::postAutoLoadDump"    
         ]
     }
 }

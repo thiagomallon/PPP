@@ -5,9 +5,9 @@
  */
 
 /**
- * @package Data\Streams
+ * @package App\Lib\CliStuff
  */
-namespace Data\Streams;
+namespace App\Lib\CliStuff;
 
 /**
  * Classe implementa comando de criação de classe de teste, pelo phpunit skeleton generator, porém,

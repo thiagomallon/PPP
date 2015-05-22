@@ -5,9 +5,9 @@
  */
 
 /**
- * @package ComposerCustoms;
+ * @package App\Lib\CliStuff;
  */
-namespace ComposerCustoms;
+namespace App\Lib\CliStuff;
 
 use Composer\Script\Event;
 
@@ -15,7 +15,7 @@ use Composer\Script\Event;
  * This class implements customized messages for install and update packages.
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-class WelcomeAboard
+class CompCustom
 {
     /**
      * Método exibe mensagem personalizada quando ocorre comando install
@@ -25,9 +25,11 @@ class WelcomeAboard
     public static function preInstall(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write(". Installing stuff\n\n            
+        $composer->write(TxtDecorator::color(". Installing stuff")."\n\n            
             Wake up matey!\n 
-            Go to the port get a few things I ordered from an old friend..\n\n\n");
+            Go to the port get a few things I ordered from an old friend..\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n".
+        "-------------------------------------------------------------\n");
     }
 
     /**
@@ -39,9 +41,10 @@ class WelcomeAboard
     public static function postInstall(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write("\n . Stuff installed\n\n            
+        $composer->write("\n".TxtDecorator::color(" . Stuff installed")."\n\n            
             Take a look matey! There is always\n 
-            room for one more.\n\n\n");
+            room for one more.\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n");
     }
 
     /**
@@ -52,9 +55,11 @@ class WelcomeAboard
     public static function preUpdate(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write(". Updating stuff\n\n            
+        $composer->write(TxtDecorator::color(". Updating stuff")."\n\n
             Hey, matey!\n            
-            Go clean up this mess!\n\n\n");
+            Go clean up this mess!\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n".
+        "-------------------------------------------------------------\n");
     }
 
         /**
@@ -66,9 +71,10 @@ class WelcomeAboard
     public static function postUpdate(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write("\n. Stuff updated\n\n            
+        $composer->write("\n".TxtDecorator::color(". Stuff updated")."\n\n
             This is the right way, matey!\n
-            Keep our sails clean..\n\n\n");
+            Keep our sails clean..\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n");
     }
 
     /**
@@ -79,10 +85,12 @@ class WelcomeAboard
     public static function preAutoLoadDump(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write(". Dumping autoload\n\n 
+        $composer->write(TxtDecorator::color(". Dumping autoload")."\n\n 
             Damn, matey!\n
-            This old map is making us going in circles.\n
-            Go get a new map for us!\n\n\n");
+            This old map is making us navigate in circles.\n
+            Go get a new map for us!\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n".
+        "-------------------------------------------------------------\n");
     }
     
     /**
@@ -94,8 +102,9 @@ class WelcomeAboard
     public static function postAutoLoadDump(Event $event)
     {
         $composer = $event->getIO();
-        $composer->write("\n. Autoload dumped\n\n           
+        $composer->write("\n".TxtDecorator::color(". Autoload dumped")."\n\n           
             Oh yes, matey!\n
-            Now you are sailing like a butterfly!\n\n\n");
+            Now we are sailing like butterflies!\n\n".
+        TxtDecorator::color("by T.Mallon", 'blue', 'black')."\n");
     }
 }
