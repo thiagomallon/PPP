@@ -4,8 +4,72 @@
 		"selected_items":
 		[
 			[
+				"assertIn",
+				"assertInstanceOf"
+			],
+			[
+				"getEleme",
+				"getElementDataByAttr"
+			],
+			[
+				"Simple",
+				"SimpleXMLElement"
+			],
+			[
+				"clou",
+				"cloudone"
+			],
+			[
+				"cl",
+				"cloudine"
+			],
+			[
 				"setUp",
-				"setUpCanvas"
+				"setUpCloudBox"
+			],
+			[
+				"clo",
+				"cloudBoxW"
+			],
+			[
+				"updateC",
+				"updateCloudoneSize"
+			],
+			[
+				"upda",
+				"updateCloudineSize"
+			],
+			[
+				"getBo",
+				"getBodyWidth"
+			],
+			[
+				"get",
+				"getBodyHeight"
+			],
+			[
+				"element",
+				"elementArray"
+			],
+			[
+				"elemen",
+				"elementArray"
+			],
+			[
+				"SimpleXml",
+				"simplexml_load_file"
+			],
+			[
+				"met",
+				"met	Create new empty method"
+			],
+			[
+				"simple",
+				"simplexml_load_file"
+			],
+			[
+				"xml",
+				"xmlSimpler"
 			],
 			[
 				"decorate",
@@ -14,10 +78,6 @@
 			[
 				"deco",
 				"decoratedMsg"
-			],
-			[
-				"upda",
-				"updateCanvasDimensions"
 			],
 			[
 				"setUpCan",
@@ -124,18 +184,34 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/cloudraw_jquery.html",
+			"file": "/var/www/html/RepCertification/src/DatabasesSQL/SingWithTongue.php",
 			"settings":
 			{
-				"buffer_size": 3049,
+				"buffer_size": 3151,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout/layout.phtml",
+			"file": "/var/www/html/prototype-cloning-issues.php",
 			"settings":
 			{
-				"buffer_size": 6707,
+				"buffer_size": 1973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
+			"settings":
+			{
+				"buffer_size": 6168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/RepCertification/test/DatabasesSQL/SingWithTongueTest.php",
+			"settings":
+			{
+				"buffer_size": 1054,
 				"line_ending": "Unix"
 			}
 		}
@@ -221,30 +297,62 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/GOF/Tutsplus-GOF",
-		"/var/www/html/GOF/Tutsplus-GOF/Factory",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/src/Application",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/src/Application/Controller",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/css",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/img",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js"
+		"/var/www/html/RepCertification"
 	],
 	"file_history":
 	[
+		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/metts.sublime-snippet",
+		"/var/www/html/RepCertification/src/DatabasesSQL/DBPrototype.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteDB.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SingWithTongue.php",
+		"/var/www/html/RepCertification/src/WebFeatures/ConfigsXMLReader.php",
+		"/var/www/html/prototype-cloning-issues.php",
+		"/var/www/html/RepCertification/test/WebFeatures/ConfigsXMLReaderTest.php",
+		"/var/www/html/mingal",
+		"/var/www/html/test__get.php",
+		"/var/www/html/RepCertification/config/configs.xml",
+		"/home/yslave/.config/sublime-text-3/Packages/User/README.md",
+		"/var/www/html/RepCertification/data/streams/somethingElse.xml",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteManipulation.php",
+		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout/layout.phtml",
+		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/raining-engine.js",
+		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/clouds.js",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/css/style.css",
+		"/var/www/html/cloudraw_jquery.html",
+		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/css/clouds.css",
+		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/clouds/CloudBuilder.js",
+		"/home/yslave/Desktop/navigating.php",
+		"/home/yslave/Desktop/cloudone.png",
+		"/home/yslave/Desktop/cloudine.png",
+		"/var/www/html/RepCertification/src/WebFeatures/XMLReader.php",
+		"/usr/apes/other/encomendas.txt",
+		"/var/www/html/test-request.php",
+		"/var/www/html/mixPatterns.php",
+		"/var/www/html/RepCertification/test/DatabasesSQL/PDOSqliteTest.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/DBAdapter.php",
+		"/var/www/html/interface_injection.php",
+		"/var/www/html/RepCertification/test/bootstrap.php",
+		"/var/www/html/PPP/composer.json",
+		"/var/www/html/RepCertification/composer.json",
+		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/TxtDecorator.php",
+		"/var/www/html/RepCertification/Lib/CliStuff/CompCustom.php",
+		"/var/www/html/RepCertification/Lib/CliStuff/TxtDecorator.php",
+		"/var/www/html/RepCertification/Lib/CliStuff/PSkelG.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
+		"/var/www/html/PPP/src/Controller/IndexController.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/MysqlAdapter.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/SqliteAdapter.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/StreamAdapter.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/DAAdapter.php",
+		"/var/www/html/PPP/src/Lib/XML/XMLReader.php",
+		"/var/www/html/PPP/src/Lib/XML/XMLAppConfigReader.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meti.sublime-snippet",
+		"/var/www/html/PPP/config/application.configs.xml",
 		"/var/www/html/cloudraw.html",
 		"/var/www/html/RepCertification/data/composer-customs/WelcomeAboard.php",
 		"/var/www/html/RepCertification/data/cli-stuff/TxtDecorator.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/raining-engine.js",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout/layout.phtml",
 		"/var/www/html/jasmine/src/Player.js",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/index/index.phtml",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/rain-engine.js",
@@ -261,7 +369,6 @@
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/index.phtml",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/composer.json",
 		"/var/www/html/RepZF2/composer.json",
-		"/var/www/html/RepCertification/composer.json",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/data/cli-stuff/TxtDecorator.php",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/data/composer-customs/WelcomeAboard.php",
 		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/test/Admin/Controller/IndexControllerTest.php",
@@ -305,17 +412,14 @@
 		"/home/yslave/.config/sublime-text-3/Packages/Phpcs/Default (Linux).sublime-keymap",
 		"/var/www/html/GOF/Learning_PHP_Patterns/Ch06_Prototype/Prototype.php",
 		"/var/www/html/GOF/Tutsplus-GOF/Decorator/Test/DecoratorTest.php",
-		"/var/www/html/RepCertification/test/bootstrap.php",
 		"/var/www/html/stream_context_create.php",
 		"/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
 		"/var/www/html/sigletando.php",
 		"/var/www/html/RepZF2/README.md",
 		"/home/yslave/Downloads/GPDP-code/Appendix B/download_factory.php",
-		"/usr/apes/other/encomendas.txt",
 		"/var/www/html/PPP/README.md",
 		"/usr/apes/other/CVThiagoMallon_w.doc",
 		"/var/www/html/RepCertification/public/files/fileManipulationTest",
-		"/var/www/html/mingal",
 		"/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
 		"/home/yslave/Dropbox/PHP/Projet_Eclipse/livroCap3_Arrays/13-ucwords.php",
 		"/home/yslave/Dropbox/PHP/Projet_Eclipse/livroCap7_TratamentoExcecoes/file_exceptions.php",
@@ -324,49 +428,7 @@
 		"/home/yslave/Dropbox/PHP/delete_update/exemploatualiza.php",
 		"/var/www/html/RepCertification/test/InputOutput/ResourceStreamTest.php",
 		"/var/www/html/RepCertification/test/InputOutput/StreamWrappersTest.php",
-		"/var/www/html/RepCertification/test/InputOutput/StreamsTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayDifferenciating.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayCallbacksTest.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mett.sublime-snippet",
-		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayPointerTest.php",
-		"/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
-		"/var/www/html/PPP/data/streams/PSkelG.php",
-		"/var/www/html/PPP/.gitignore",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/AbstractDAMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Prototype/DAPrototype.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/StreamAdapter.php",
-		"/var/www/html/PPP/src/Util/CPFValidator.php",
-		"/var/www/html/PPP/src/Lib/DB/Prototype/DataAccessPrototype.php",
-		"/var/www/html/PPP/src/Lib/DB/Adapter/DBAdapter.php",
-		"/var/www/html/PPP/src/Lib/DB/Adapter/MysqlAdapter.php",
-		"/var/www/html/PPP/src/Lib/DB/Adapter/SqliteAdapter.php",
-		"/var/www/html/PPP/src/Lib/DB/Adapter/StreamAdapter.php",
-		"/var/www/html/PPP/config/application.configs.xml",
-		"/var/www/html/PPP/src/Lib/Controller/Controller.php",
-		"/var/www/html/PPP/src/Model/User.php",
-		"/var/www/html/PPP/src/Lib/DB/Mapper.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/met.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meta.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mets.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/cls.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/clsa.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/clst.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/gset.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/gsets.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/itf.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mdoc.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmp.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/nmpd.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpb.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpd.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/prpv.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/tfix.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/trt.sublime-snippet",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/vdoc.sublime-snippet",
-		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/EarthSea.php",
-		"/var/www/html/MProj/src/Lib/Patterns/PrototypePattern/Interfaces/Sea.php"
+		"/var/www/html/RepCertification/test/InputOutput/StreamsTest.php"
 	],
 	"find":
 	{
@@ -391,6 +453,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"object",
+			"$attribute",
+			"attribute",
+			"dbDetails",
+			"(\\$dbCredentials)\\['(\\w+)'\\]\\;",
+			"\\$dbCredentials\\[(\\'\\w+\\')\\]\\;",
+			"$dbCredentials[(\\'\\w+\\')];",
+			"$dbCredentials[('\\w+')];",
+			"dbDetails",
+			"Clouds.prototype",
+			"cloudBoxW",
+			"cloudoneML",
+			"cloudineML",
+			"cbox",
+			"cdone",
+			"cdine",
+			"function()\n{",
+			"this.(\\w+ \\= function\\(\\))",
+			"this.getBodyWidth = function()",
+			"this.(\\w+ \\= function\\(\\))",
+			"setUpCloudone",
+			"this\\.cloudBox\\.style\\.(\\w+) = ('.+')\\;",
+			"this\\.cloudBox\\.style\\.(\\w+) = ('[\\w]+')\\;",
+			"this\\.cloudBox\\.style\\.(\\w+) = ('\\w+')\\;",
+			"this\\.cloudBox\\.style\\.(\\w) = ('\\w+');",
+			"cloudone",
+			"ComposerCustoms\\\\",
+			"Lib\\\\",
+			"CompCustom",
+			"ComposerCustoms",
+			"Data\\Streams",
+			"CliStuff",
+			"App\\",
+			"ComposerCustoms",
+			"CliStuff",
+			"Data\\Streams",
+			"db-",
+			"ppp-",
 			"this.cvs",
 			"this.setUpCanvas",
 			"context",
@@ -487,6 +587,13 @@
 		"regex": true,
 		"replace_history":
 		[
+			"$1->$2;",
+			"$1->$2",
+			"function() {",
+			"Clouds.prototype.$1",
+			"'$1':$2,",
+			"'$1':'$2',",
+			"",
 			"$1 => $2,",
 			"sublime_text",
 			"The $1$2",
@@ -516,29 +623,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/cloudraw_jquery.html",
+					"file": "/var/www/html/RepCertification/src/DatabasesSQL/SingWithTongue.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3049,
+						"buffer_size": 3151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
+								656,
+								656
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -546,32 +653,92 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout/layout.phtml",
+					"file": "/var/www/html/prototype-cloning-issues.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6707,
+						"buffer_size": 1973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6233,
-								6233
+								1493,
+								1493
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1385.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/RepCertification/test/DatabasesSQL/SingWithTongueTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								969,
+								969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -610,7 +777,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 142.0
+		"height": 179.0
 	},
 	"output.find_results":
 	{

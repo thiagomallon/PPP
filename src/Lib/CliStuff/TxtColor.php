@@ -10,11 +10,11 @@
 namespace App\Lib\CliStuff;
 
 /**
- * Class TxtDecorator.
+ * Class TxtColor
  *
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-class TxtDecorator
+class TxtColor
 {
     /**
      * Property stores possible foreground colors
@@ -24,7 +24,7 @@ class TxtDecorator
     'black' => '0;30',
     'darkgray' => '1;30',
     'blue' => '0;34',
-    'light_blue' => '1;34',
+    'lightblue' => '1;34',
     'green' => '0;32',
     'lightgreen' => '1;32',
     'cyan' => '0;36',
@@ -67,22 +67,24 @@ class TxtDecorator
      * @param string $bfrColor Background color
      * @return string $decoratedTxt
      */
-    public static function color($txt = 'We need a string value - by TxtDecorator', $fgrColor = null, $bgrColor = null)
+    public static function decorate($txt = null, $fgrColor = null, $bgrColor = null)
     {
-        // check and try to apply fg. color
-        self::$decoratedTxt = ((array_key_exists($fgrColor, self::$fgColor))?
+        if (!empty($txt) && ($fgrColor || $bgrColor)) {
+            // check and try to apply fg. color
+            self::$decoratedTxt .= ((array_key_exists($fgrColor, self::$fgColor))?
             "\033[".self::$fgColor[$fgrColor].'m': // if !null set
-            "\033[".self::$fgColor['blue'].'m'); // set default value
+            null); // set null
 
-        // check and try to apply bg. color
-        self::$decoratedTxt .= ((array_key_exists($bgrColor, self::$bgColor))?
+            // check and try to apply bg. color
+            self::$decoratedTxt .= ((array_key_exists($bgrColor, self::$bgColor))?
             "\033[".self::$bgColor[$bgrColor].'m': // if !null set
-            "\033[".self::$bgColor['lightgray'].'m'); // set default value
-
-        return self::$decoratedTxt . "$txt\033[0m";
+            null); // set null
+            return self::$decoratedTxt . "$txt\033[0m";
+        }
+        return $txt;
     }
 }
 
 if (isset($argv)) {
-    print TxtDecorator::color()."\n";
+    print TxtColor::decorate('TxtColor::decorate([string $txt[, string $fgColor[, string $bgColor]]])')."\n";
 }
