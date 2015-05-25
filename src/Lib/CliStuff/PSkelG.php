@@ -81,5 +81,9 @@ final class PSkelG
  * Espera-se comando assim como:
  *
  * php data/streams/PSkelG.php namespaced App\\InputOutput\\PageContentTaker
+ *
+ * ou, pelo atalho na raiz (skelgen)
+ *
+ * php skelgen namespaced App\\InputOutput\\PageContentTaker
  */
 print_r(PSkelG::{$argv[1]}($argv));
