@@ -17,11 +17,14 @@ use App\Lib\DA\Mapper\MysqlMapper;
  */
 class UserDAO extends MysqlMapper
 {
+    // seleciona tabela a qual serão realizadas operações
+    protected $table = 'users';
+
     public function __construct()
     {
     }
 
-    public function getUser()
+    public function getUsers()
     {
         return $this->fetchAll();
     }

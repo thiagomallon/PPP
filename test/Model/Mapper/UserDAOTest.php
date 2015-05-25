@@ -46,6 +46,6 @@ class UserDAOTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetUser()
     {
-        print_r($this->_userDAO->getUser());
+        print_r($this->_userDAO->getUsers());
     }
 }
