@@ -14,9 +14,9 @@ namespace App\Lib\DA\Mapper;
  */
 interface DAMapper
 {
-    public function fetchAll();
-    public function find();
-    public function insert();
-    public function delete();
-    public function update();
+    public function fetchAll(array $columns = array(), array $where = array(), $order = null, $limit = null);
+    public function find($id);
+    public function insert(array $columns = array(), array $values = array());
+    public function delete(array $where = array());
+    public function update(array $where = array());
 }

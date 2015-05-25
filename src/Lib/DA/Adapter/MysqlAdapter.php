@@ -31,7 +31,7 @@ class MysqlAdapter extends DAAdapter implements DAPrototype
 
             self::$dbh = new \PDO('mysql:host='.self::$daDetails->host.
                 ';dbname='.self::$daDetails->name, self::$daDetails->user, self::$daDetails->pass);
-            print_r(self::$daDetails);
+            //print_r(self::$daDetails);
         }
     }
 
