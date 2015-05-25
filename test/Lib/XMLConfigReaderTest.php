@@ -18,7 +18,7 @@ class XMLConfigReaderTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->object = new XMLConfigReader;
+        $this->object = new \App\Lib\XML\XMLConfigReader;
     }
 
     /**
