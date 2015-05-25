@@ -6,15 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Lib\\CliStuff\\CompCustom' => $baseDir . '/src/Lib/CliStuff/CompCustom.php',
-    'App\\Lib\\CliStuff\\PSkelG' => $baseDir . '/src/Lib/CliStuff/PSkelG.php',
-    'App\\Lib\\CliStuff\\TxtColor' => $baseDir . '/src/Lib/CliStuff/TxtColor.php',
-    'App\\Lib\\DA\\Adapter\\MysqlAdapter' => $baseDir . '/src/Lib/DA/Adapter/MysqlAdapter.php',
-    'App\\Lib\\DA\\Adapter\\SqliteAdapter' => $baseDir . '/src/Lib/DA/Adapter/SqliteAdapter.php',
-    'App\\Lib\\DA\\Adapter\\StreamAdapter' => $baseDir . '/src/Lib/DA/Adapter/StreamAdapter.php',
-    'App\\Lib\\DA\\DAAdapter' => $baseDir . '/src/Lib/DA/Adapter/DAAdapter.php',
-    'App\\Lib\\Util\\CPFValidator' => $baseDir . '/src/Util/CPFValidator.php',
-    'App\\Lib\\XML\\XMLAppConfigReader' => $baseDir . '/src/Lib/XML/XMLAppConfigReader.php',
-    'App\\Lib\\XML\\XMLReader' => $baseDir . '/src/Lib/XML/XMLReader.php',
-    'App\\Model\\User' => $baseDir . '/src/Model/User.php',
 );

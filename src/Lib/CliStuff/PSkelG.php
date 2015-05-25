@@ -56,8 +56,14 @@ final class PSkelG
     {
         $testClassNamespace = '"'.str_replace('App', 'Test', $classNmp)."Test".'"';
         $testClassPath = explode("\\", $classNmp);
-        $testClassPath = 'test/'.$testClassPath[1].'/'.$testClassPath[2].'Test.php';
-        return $testClassNamespace.' '.$testClassPath;
+        $testPath = 'test';
+        foreach ($testClassPath as $tcp) {
+            if ($tcp == 'App') {
+                continue;
+            }
+            $testPath .= '/'.$tcp;
+        }
+        return $testClassNamespace.' '.$testPath.'Test.php';
     }
 
     /**
@@ -72,8 +78,8 @@ final class PSkelG
         $testClassStuff = self::treatTestClassPath($comm[2]);
 
         return shell_exec("phpunit-skelgen generate-test --bootstrap=\"test/bootstrap.php\"".
-        " \"$comm[2]\" $classPath ".
-        "$testClassStuff ");
+            " \"$comm[2]\" $classPath ".
+            "$testClassStuff ");
     }
 }
 
