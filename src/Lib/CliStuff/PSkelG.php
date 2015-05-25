@@ -42,8 +42,14 @@ final class PSkelG
     protected static function treatClassPath($classNmp)
     {
         $classPath = explode("\\", $classNmp);
-        $classPath = 'src/'.$classPath[1].'/'.$classPath[2].'.php';
-        return $classPath;
+        $path = 'src';
+        foreach ($classPath as $cp) {
+            if ($cp == 'App') {
+                continue;
+            }
+            $path .= '/'.$cp;
+        }
+        return $path.'.php';
     }
 
     /**
