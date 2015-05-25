@@ -6,7 +6,7 @@
 /**
  * @package App\Lib\XML
  */
- namespace App\Lib\XML;
+namespace App\Lib\XML;
 
 /**
  * Interface XMLReader
@@ -15,9 +15,25 @@
 interface XMLReader
 {
     /**
-     * The setFilePath abstract method is used to set the xml file path
-     * @return void
-     * @param string $filePath The xml file path
+     * The setFilePath abstract method
+     * @return datatype description
+     * @param datatype $filePath description
      */
     public function setFilePath($filePath);
+    /**
+     * The getElementArrayData abstract method
+     * @return datatype description
+     * @param datatype $element description
+     */
+    public function getElementData($element);
+    /**
+     * Method getElementDataByAttr
+     * @return datatype description
+     */
+    public function getElementDataByAttr(array $elementDetails);
+    /**
+     * The getXMLData abstract method
+     * @return datatype description
+     */
+    public function getXMLData();
 }
