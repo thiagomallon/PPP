@@ -5,7 +5,7 @@
  */
 
 /**
- * @package App\Lib\CliStuff
+ * @subpackage App\Lib\CliStuff
  */
 namespace App\Lib\CliStuff;
 

@@ -4,7 +4,7 @@
  */
 
 /**
- * @package App\Model
+ * @subpackage App\Model
  */
 namespace App\Model;
 

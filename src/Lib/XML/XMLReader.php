@@ -4,7 +4,7 @@
  */
 
 /**
- * @package App\Lib\XML
+ * @subpackage App\Lib\XML
  */
 namespace App\Lib\XML;
 

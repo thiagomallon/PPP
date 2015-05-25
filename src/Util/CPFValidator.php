@@ -4,7 +4,7 @@
  */
 
 /**
- * @package App\Lib\Util
+ * @subpackage App\Lib\Util
  */
 namespace App\Lib\Util;
 

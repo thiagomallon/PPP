@@ -4,7 +4,7 @@
  */
 
 /**
- * @package App\Lib\DA\Prototype
+ * @subpackage App\Lib\DA\Prototype
  */
 namespace App\Lib\DA\Prototype;
 

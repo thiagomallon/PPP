@@ -5,7 +5,7 @@
  */
 
 /**
- * @package App\Model\Mapper
+ * @subpackage App\Model\Mapper
  */
 namespace App\Model\Mapper;
 

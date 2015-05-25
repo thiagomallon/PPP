@@ -4,7 +4,7 @@
  */
 
 /**
- * @package App\Lib\Controller
+ * @subpackage App\Lib\Controller
  */
 namespace App\Lib\Controller;
 

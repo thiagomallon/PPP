@@ -5,7 +5,7 @@
  */
 
 /**
- * @package App\Controller
+ * @subpackage App\Controller
  */
 namespace App\Controller;
 

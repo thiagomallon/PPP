@@ -4,7 +4,7 @@
  */
 
 /**
- * @package Test\Model\Mapper
+ * @subpackage Test\Model\Mapper
  */
 namespace Test\Model\Mapper;
 
@@ -42,7 +42,7 @@ class UserDAOTest extends \PHPUnit_Framework_TestCase
     /**
      * The testGetUser method
      * @return void
-     * @covers \App\Model\Mapper\UserDAO::getUser
+     * @covers \App\Model\Mapper\UserDAO::getUsers
      */
     public function testGetUser()
     {
