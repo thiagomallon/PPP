@@ -1,5 +1,5 @@
 ## PPP (Principles, Patterns and Proposals)
-#### SOLID principles, Design Patterns and PSR's proposals
+#### S.O.L.I.D. principles, Design Patterns and PSR's proposals
 
 **This project is under development** 
 
