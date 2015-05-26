@@ -1,5 +1,5 @@
 ## PPP (Principles, Patterns and Proposals)
-#### SOLID principles, GOF patterns and PSR's proposals (and tests by using TDD and BDD aprouch)
+#### SOLID principles, Design Patterns and PSR's proposals (and tests by using TDD and BDD approuch)
 
 **This project is under development** 
 

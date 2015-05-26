@@ -188,33 +188,77 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+			"file": "/var/www/html/test-request.php",
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 31,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/test__get.php",
+			"file": "/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
 			"settings":
 			{
-				"buffer_size": 576,
+				"buffer_size": 3185,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
-		"last_filter": "",
+		"height": 222.0,
+		"last_filter": "C++",
 		"selected_items":
 		[
+			[
+				"C++",
+				"Build With: C++11 - Run"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"phpuni",
 				"PHPUnit: Run"
@@ -244,10 +288,6 @@
 				"PHPUnit: Run with params"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"phpunit ",
 				"PHPUnit: Run with params"
 			],
@@ -260,7 +300,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -286,24 +326,47 @@
 	"expanded_folders":
 	[
 		"/var/www/html/RepCertification",
-		"/var/www/html/RepCertification/src/PHPBasics",
-		"/var/www/html/RepCertification/test",
-		"/var/www/html/RepCertification/test/Functions",
-		"/var/www/html/PPP/src/Lib/DA",
-		"/var/www/html/PPP/src/Lib/DA/Adapter",
-		"/var/www/html/PPP/src/Lib/DA/Mapper",
-		"/var/www/html/PPP/test/Lib",
-		"/var/www/html/PPP/test/Lib/XML",
-		"/var/www/html/PPP/test/Model",
-		"/var/www/html/PPP/test/Model/Mapper"
+		"/var/www/html/RepCertification/lib",
+		"/var/www/html/RepCertification/lib/CliStuff",
+		"/var/www/html/PPP",
+		"/var/www/html/PPP/src",
+		"/var/www/html/PPP/src/Lib",
+		"/var/www/html/PPP/src/Lib/CliStuff",
+		"/var/www/html/PPP/src/Lib/Logon"
 	],
 	"file_history":
 	[
-		"/var/www/html/test__get.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
+		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
+		"/var/www/html/PPP/src/Lib/Logon/LoginStrategy.php",
+		"/etc/php5/apache2/php.ini",
+		"/var/www/html/PPP/src/Lib/Logon/SqliteStrategy.php",
+		"/var/www/html/PPP/src/Lib/Logon/StreamStrategy.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Strategy/PriceCalculator.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Strategy/EuropePricingStrategy.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Strategy/USAPricingStrategy.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Strategy/GrandPrice.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Adapter/TheOldRosesInterface.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Adapter/RealWhiteRose.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Adapter/ProductInterface.php",
+		"/var/www/html/GOF/Tutsplus-GOF/Adapter/RosesToProductAdapter.php",
+		"/usr/apes/other/encomendas.txt",
+		"/var/www/html/PPP/skelgen",
+		"/var/www/html/PPP/src/Lib/DA/Mapper/MysqlMapper.php",
+		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php",
+		"/var/www/html/PPP/src/Lib/DA/Strategy/StreamStrategy.php",
 		"/var/www/html/PPP/test/Model/Mapper/UserDAOTest.php",
+		"/var/www/html/PPP/src/Lib/DA/Strategy/SqliteStrategy.php",
+		"/var/www/html/PPP/src/Lib/DA/Strategy/MysqlStrategy.php",
+		"/var/www/html/PPP/src/Lib/DA/Strategy/DAAdapter.php",
+		"/var/www/html/test__get.php",
+		"/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+		"/var/www/html/main.cpp",
+		"/home/yslave/.config/sublime-text-3/Packages/User/C++11.sublime-settings",
+		"/home/yslave/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
+		"/home/yslave/.config/sublime-text-3/Packages/C++11/messages/install.txt",
 		"/var/www/html/RepCertification/lib/CliStuff/CompCustom.php",
 		"/var/www/html/RepCertification/lib/CliStuff/PSkelG.php",
-		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
 		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-14/phpdoc-cache-file_b85f6ae7a41d959c148989fdb5e2aa27.dat",
 		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-22/phpdoc-cache-file_7835fc4c6a4f12ade79fc6cb81f92db9.dat",
 		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-37/phpdoc-cache-file_4ec79179982cb9726ef71e1cb9dcdedf.dat",
@@ -374,15 +437,12 @@
 		"/var/www/html/PPP/src/Controller/IndexController.php",
 		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
 		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
-		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
 		"/var/www/html/PPP/src/Lib/Controller/Controller.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/DAAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/MysqlAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/SqliteAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/StreamAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Mapper/DAMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/MysqlMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php",
 		"/var/www/html/PPP/src/Lib/DA/Prototype/DAPrototype.php",
 		"/var/www/html/PPP/src/Lib/XML/XMLConfigReader.php",
 		"/var/www/html/PPP/src/Lib/XML/XMLReader.php",
@@ -403,30 +463,7 @@
 		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
 		"/var/www/html/RepCertification/src/OOProgramming/MagicMethods.php",
 		"/var/www/html/RepCertification/src/OOProgramming/Mother.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Reflecting.php",
-		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffDaughter.php",
-		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffMother.php",
-		"/var/www/html/RepCertification/src/PHPBasics/BasicStuff.php",
-		"/var/www/html/RepCertification/src/PHPBasics/Daughter.php",
-		"/var/www/html/RepCertification/src/PHPBasics/Mother.php",
-		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatching.php",
-		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingAll.php",
-		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingFilter.php",
-		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingReplace.php",
-		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMathingSplit.php",
-		"/var/www/html/RepCertification/src/WebFeatures/ConfigsXMLReader.php",
-		"/var/www/html/RepCertification/src/WebFeatures/XMLReader.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayCallbacksTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayDifferenciating.php",
-		"/var/www/html/RepCertification/test/Arrays/ArrayPointerTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
-		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
-		"/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
-		"/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
-		"/var/www/html/RepCertification/test/InputOutput/PageContentTakerTest.php",
-		"/var/www/html/RepCertification/test/InputOutput/ResourceStreamTest.php",
-		"/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
-		"/var/www/html/RepCertification/test/OOProgramming/ClosuresToBindTest.php"
+		"/var/www/html/RepCertification/src/OOProgramming/Reflecting.php"
 	],
 	"find":
 	{
@@ -437,6 +474,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/var/www/html/PPP/src/Lib/DA",
 			"/var/www/html/RepCertification/lib",
 			"/var/www/html/PPP/config,/var/www/html/PPP/data,/var/www/html/PPP/src,/var/www/html/PPP/test",
 			"/var/www/html/RepCertification/src,/var/www/html/RepCertification/test",
@@ -452,9 +490,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Adapter",
 			"@package",
 			"w",
 			"@package",
@@ -581,8 +620,7 @@
 			"var1",
 			"php",
 			"\\Patterns",
-			"valores",
-			"jasmine/lib"
+			"valores"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -590,6 +628,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"Strategy",
 			"@subpackage",
 			"$1->$2",
 			"TxtColor::color($1, 'blue', 'lightgray')",
@@ -629,19 +668,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+					"file": "/var/www/html/test-request.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 31,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								26,
+								26
 							]
 						],
 						"settings":
@@ -657,27 +696,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/var/www/html/test__get.php",
+					"file": "/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 576,
+						"buffer_size": 3185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								574,
-								574
+								3126,
+								3126
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.x": 132.0,
+						"translation.y": 1125.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
