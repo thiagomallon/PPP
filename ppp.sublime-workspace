@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"cls",
-				"cls	Create new test class"
+				"assertIn",
+				"assertInternalType"
 			],
 			[
-				"assertIn",
-				"assertInstanceOf"
+				"cls",
+				"cls	Create new test class"
 			],
 			[
 				"getEleme",
@@ -187,6 +187,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/test__get.php",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -269,144 +285,148 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/RepCertification/data/streams",
-		"/var/www/html/RepCertification/src",
-		"/var/www/html/RepCertification/src/DatabasesSQL",
-		"/var/www/html/RepCertification/src/WebFeatures",
-		"/var/www/html/RepCertification/test/WebFeatures",
-		"/var/www/html/RepCertification/vendor",
-		"/var/www/html/PPP"
+		"/var/www/html/RepCertification",
+		"/var/www/html/RepCertification/src/PHPBasics",
+		"/var/www/html/RepCertification/test",
+		"/var/www/html/RepCertification/test/Functions",
+		"/var/www/html/PPP/src/Lib/DA",
+		"/var/www/html/PPP/src/Lib/DA/Adapter",
+		"/var/www/html/PPP/src/Lib/DA/Mapper",
+		"/var/www/html/PPP/test/Lib",
+		"/var/www/html/PPP/test/Lib/XML",
+		"/var/www/html/PPP/test/Model",
+		"/var/www/html/PPP/test/Model/Mapper"
 	],
 	"file_history":
 	[
-		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
-		"/var/www/html/PPP/test/Lib/XML/XMLConfigReaderTest.php",
-		"/var/www/html/PPP/test/Test.php",
-		"/var/www/html/PPP/test/Lib/XMLConfigReaderTest.php",
-		"/var/www/html/PPP/config/application.configs.xml",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/MysqlAdapter.php",
-		"/var/www/html/PPP/src/Model/Mapper/UserDAO.php",
-		"/var/www/html/PPP/src/Lib/XML/XMLConfigReader.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/MysqlMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/DAAdapter.php",
-		"/var/www/html/PPP/src/Lib/XML/XMLReader.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/DAMapper.php",
-		"/var/www/html/PPP/public/index.php",
-		"/var/www/html/RepCertification/src/WebFeatures/ConfigsXMLReader.php",
-		"/var/www/html/PPP/src/Lib/Controller/Controller.php",
-		"/var/www/html/PPP/config/configs.xml",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/DASqliteMapper.php",
-		"/var/www/html/RepCertification/src/PHPBasics/BasicStuff.php",
-		"/var/www/html/PPP/src/Lib/DA/Prototype/DAPrototype.php",
-		"/var/www/html/PPP/test/Model/Mapper/UserDAOTest.php",
-		"/var/www/html/PPP/src/Lib/XML/XMLAppConfigReader.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/MySqlDB.php",
-		"/var/www/html/RepCertification/config/configs.xml",
-		"/var/www/html/RepCertification/src/DatabasesSQL/DB.php",
-		"/var/www/html/RepCertification/test/DatabasesSQL/MySqlDBTest.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/SingWithTongue.php",
-		"/var/www/html/RepCertification/src/WebFeatures/XMLReader.php",
-		"/var/www/html/RepCertification/test/WebFeatures/ConfigsXMLReaderTest.php",
-		"/var/www/html/RepCertification/test/DatabasesSQL/SingWithTongueTest.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/MySqlDb.php",
-		"/var/www/html/RepCertification/data/streams/sqlitedb.sqlite-journal",
-		"/var/www/html/RepCertification/data/streams/sqlitedb.sqlite",
-		"/var/www/html/RepCertification/src/DatabasesSQL/DBAdapter.php",
-		"/var/www/html/phpsqliteadmin03/login.class.php",
-		"/var/www/html/phpsqliteadmin03/index.php",
-		"/var/www/html/phpsqliteadmin03/login.php",
-		"/var/www/html/phpsqliteadmin03/check_login.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteDB.php",
-		"/var/www/html/phpsqliteadmin03/db/phpsla.sqlite",
-		"/var/www/html/RepCertification/src/DatabasesSQL/DBPrototype.php",
-		"/var/www/html/RepCertification/lib/CliStuff/CompCustom.php",
-		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
-		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
-		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
-		"/var/www/html/RepCertification/data/streams/sqlitest",
-		"/var/www/html/prototype-cloning-issues.php",
-		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/metts.sublime-snippet",
-		"/var/www/html/mingal",
 		"/var/www/html/test__get.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/README.md",
-		"/var/www/html/RepCertification/data/streams/somethingElse.xml",
-		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteManipulation.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/layout/layout.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/raining-engine.js",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/clouds.js",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/css/style.css",
-		"/var/www/html/cloudraw_jquery.html",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/css/clouds.css",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/clouds/CloudBuilder.js",
-		"/home/yslave/Desktop/navigating.php",
-		"/home/yslave/Desktop/cloudone.png",
-		"/home/yslave/Desktop/cloudine.png",
-		"/usr/apes/other/encomendas.txt",
-		"/var/www/html/test-request.php",
-		"/var/www/html/mixPatterns.php",
-		"/var/www/html/RepCertification/test/DatabasesSQL/PDOSqliteTest.php",
-		"/var/www/html/interface_injection.php",
-		"/var/www/html/RepCertification/test/bootstrap.php",
-		"/var/www/html/PPP/composer.json",
-		"/var/www/html/RepCertification/composer.json",
-		"/var/www/html/PPP/src/Lib/CliStuff/TxtDecorator.php",
-		"/var/www/html/RepCertification/Lib/CliStuff/CompCustom.php",
-		"/var/www/html/RepCertification/Lib/CliStuff/TxtDecorator.php",
-		"/var/www/html/RepCertification/Lib/CliStuff/PSkelG.php",
+		"/var/www/html/PPP/test/Model/Mapper/UserDAOTest.php",
+		"/var/www/html/RepCertification/lib/CliStuff/CompCustom.php",
+		"/var/www/html/RepCertification/lib/CliStuff/PSkelG.php",
+		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-14/phpdoc-cache-file_b85f6ae7a41d959c148989fdb5e2aa27.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-22/phpdoc-cache-file_7835fc4c6a4f12ade79fc6cb81f92db9.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-37/phpdoc-cache-file_4ec79179982cb9726ef71e1cb9dcdedf.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-3d/phpdoc-cache-file_0576126aa9fe3801ef62b212c6a3920b.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-55/phpdoc-cache-file_40a9ce474f9f581bb63189e293f79eee.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-6e/phpdoc-cache-file_e03d7c175ada3096d5a775102fac7043.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-7d/phpdoc-cache-file_d4e466fb13707a31b9cbeb0910ef59c2.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-85/phpdoc-cache-file_8a6adfbcbb1e66fd6ea9dc5943cc94b6.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-90/phpdoc-cache-file_c9fcc76f99f7680c0981ed3445235051.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-93/phpdoc-cache-file_7de0bbf7589984bc1d7f770b324b762d.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-9a/phpdoc-cache-file_adf29362054f91675232f70b45f97e4c.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a1/phpdoc-cache-file_d35fa56866ffaf8de469660b7ea7748c.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a4/phpdoc-cache-file_57986fe1efc6b488bd2b12cbed5f9884.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a5/phpdoc-cache-file_e13d679e753a81e19671732f55a25a37.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-b5/phpdoc-cache-file_8f60a255b6ea35cad01ab29f7531540a.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-be/phpdoc-cache-file_2250bfe8d583b48d7a501576daf8264b.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-e3/phpdoc-cache-file_1466bb1a0a37fe9f7cf52eda8f3b431a.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-eb/phpdoc-cache-file_9ec1e38ecdc9427bbdb1b44cb9abbb3d.dat",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DatabasesSQL/SingWithTongue.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/FindFoodAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/MammalSurvive.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensAbstract.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensFactory.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensFemale.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensMale.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensSurviveAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/FileManipulation.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/PageContentTaker.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/ResourceStream.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/CompCustom.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/PSkelG.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/TxtColor.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/Controller/Controller.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/DAAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/MysqlAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/SqliteAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/StreamAdapter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/DAMapper.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/MysqlMapper.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/SqliteMapper.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Prototype/DAPrototype.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/XML/XMLConfigReader.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/XML/XMLReader.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Model/Mapper/UserDAO.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Model/User.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Closures.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/ClosuresToBind.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Daughter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/GrandMa.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/MagicMethods.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Mother.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OODaughter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OOGrandMa.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OOMother.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Reflecting.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/StaticStuffDaughter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/StaticStuffMother.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/BasicStuff.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/Daughter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/Mother.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Patterns/TargetInterface.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatching.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingAll.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingFilter.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingReplace.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMathingSplit.php.html",
+		"/var/www/html/PPP/data/test-logs/html-code-coverage/Util/CPFValidator.php.html",
 		"/var/www/html/PPP/src/Controller/IndexController.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
+		"/var/www/html/PPP/src/Lib/Controller/Controller.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/DAAdapter.php",
+		"/var/www/html/PPP/src/Lib/DA/Adapter/MysqlAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/SqliteAdapter.php",
 		"/var/www/html/PPP/src/Lib/DA/Adapter/StreamAdapter.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meti.sublime-snippet",
-		"/var/www/html/cloudraw.html",
-		"/var/www/html/RepCertification/data/composer-customs/WelcomeAboard.php",
-		"/var/www/html/RepCertification/data/cli-stuff/TxtDecorator.php",
-		"/var/www/html/jasmine/src/Player.js",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/index/index.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/rain-engine.js",
-		"/tmp/fz3temp-2/style.css",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/config/module.config.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/public/js/engine.js",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/src/Application/Controller/SolidController.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/dependency-inversion-principle.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/interface-segregation-principle.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/liskov-substitution-principle.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/open-closed-principle.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/single-responsability-principle.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/src/Application/Controller/IndexController.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/view/application/solid/index.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/composer.json",
-		"/var/www/html/RepZF2/composer.json",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/data/cli-stuff/TxtDecorator.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/data/composer-customs/WelcomeAboard.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/test/Admin/Controller/IndexControllerTest.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/test/Application/Controller/IndexControllerTest.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/Module.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Application/Module.php",
-		"/home/yslave/Dropbox/PHP/comandos/mallon_zf2",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/config/module.config.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/src/Admin/Controller/IndexController.php",
-		"/var/www/html/RepZF2/module/Admin/src/Admin/Controller/IndexController.php",
-		"/var/www/html/RepZF2/module/Admin/config/module.config.php",
-		"/var/www/html/RepZF2/module/Application/config/module.config.php",
-		"/var/www/html/GOF/GPDP-code/Chapter 2/valueobj5_test.php",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/view/admin/index/index.phtml",
-		"/var/www/html/RepPHP-Beyond-Logic/cloud/module/Admin/src/Admin/Form/UserForm.php",
-		"/var/www/html/RepZF2/module/Application/view/layout/layout.phtml",
-		"/home/yslave/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
-		"/var/www/html/RepCertification/test/PHPBasics/BasicStuffTest.php",
-		"/var/www/html/RepZF2/.htaccess",
-		"/home/yslave/Dropbox/PHP/comandos/mallon_doctrine",
-		"/var/www/html/RepZF2/vendor/bin/doctrine-module",
-		"/usr/share/applications/defaults.list",
-		"/tmp/fz3temp-1/doctrine.local.php",
-		"/home/yslave/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
-		"/var/www/html/PPP/phpdoc.dist.xml",
-		"/var/www/html/RepZF2/phpdoc.dist.xml",
-		"/var/www/html/GOF/GPDP-code/Chapter 11/proxy_test.php",
-		"/home/yslave/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/var/www/html/GOF/GPDP-code/Chapter 10/dictionary.inc.php"
+		"/var/www/html/PPP/src/Lib/DA/Mapper/DAMapper.php",
+		"/var/www/html/PPP/src/Lib/DA/Mapper/MysqlMapper.php",
+		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php",
+		"/var/www/html/PPP/src/Lib/DA/Prototype/DAPrototype.php",
+		"/var/www/html/PPP/src/Lib/XML/XMLConfigReader.php",
+		"/var/www/html/PPP/src/Lib/XML/XMLReader.php",
+		"/var/www/html/PPP/src/Model/Mapper/UserDAO.php",
+		"/var/www/html/PPP/src/Model/User.php",
+		"/var/www/html/PPP/src/Util/CPFValidator.php",
+		"/var/www/html/RepCertification/test/PHPBasics/VariableVariablesTest.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/DB.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/DBPrototype.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/MySqlDB.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteDB.php",
+		"/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
+		"/var/www/html/RepCertification/src/InputOutput/PageContentTaker.php",
+		"/var/www/html/RepCertification/src/InputOutput/ResourceStream.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Closures.php",
+		"/var/www/html/RepCertification/src/OOProgramming/ClosuresToBind.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Daughter.php",
+		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
+		"/var/www/html/RepCertification/src/OOProgramming/MagicMethods.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Mother.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Reflecting.php",
+		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffDaughter.php",
+		"/var/www/html/RepCertification/src/OOProgramming/StaticStuffMother.php",
+		"/var/www/html/RepCertification/src/PHPBasics/BasicStuff.php",
+		"/var/www/html/RepCertification/src/PHPBasics/Daughter.php",
+		"/var/www/html/RepCertification/src/PHPBasics/Mother.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatching.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingAll.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingFilter.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatchingReplace.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMathingSplit.php",
+		"/var/www/html/RepCertification/src/WebFeatures/ConfigsXMLReader.php",
+		"/var/www/html/RepCertification/src/WebFeatures/XMLReader.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayCallbacksTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayDifferenciating.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayPointerTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
+		"/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+		"/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
+		"/var/www/html/RepCertification/test/InputOutput/PageContentTakerTest.php",
+		"/var/www/html/RepCertification/test/InputOutput/ResourceStreamTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/ClosuresToBindTest.php"
 	],
 	"find":
 	{
@@ -417,6 +437,10 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/var/www/html/RepCertification/lib",
+			"/var/www/html/PPP/config,/var/www/html/PPP/data,/var/www/html/PPP/src,/var/www/html/PPP/test",
+			"/var/www/html/RepCertification/src,/var/www/html/RepCertification/test",
+			"/var/www/html/RepPHP-Beyond-Logic/cloud",
 			"/var/www/html/RepCertification",
 			"/var/www/html/MProj",
 			"/var/www/html/RepCertification",
@@ -431,6 +455,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@package",
+			"w",
+			"@package",
+			"testArrayObj",
 			"protected function",
 			"abstract protected",
 			"App\\DatabasesSql\\DB",
@@ -554,11 +582,7 @@
 			"php",
 			"\\Patterns",
 			"valores",
-			"jasmine/lib",
-			"documentation",
-			"WelcomeAboard",
-			"ComposerCustoms",
-			"LateStaticMother"
+			"jasmine/lib"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -566,6 +590,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"@subpackage",
 			"$1->$2",
 			"TxtColor::color($1, 'blue', 'lightgray')",
 			"$1->$2;",
@@ -599,8 +624,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/test__get.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

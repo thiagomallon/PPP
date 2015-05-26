@@ -4,18 +4,18 @@
  */
 
 /**
- * @subpackage App\Lib\DA\Adapter
+ * @subpackage App\Lib\DA\Strategy
  */
-namespace App\Lib\DA\Adapter;
+namespace App\Lib\DA\Strategy;
 
 use App\Lib\DA\Prototype\DAPrototype;
 use App\Lib\XML\XMLConfigReader;
 
 /**
- * Class MysqlAdapter
+ * Class MysqlStrategy
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-class MysqlAdapter extends DAAdapter implements DAPrototype
+class MysqlStrategy extends DAStrategy implements DAPrototype
 {
     protected static $daDetails;
     protected static $dbh;

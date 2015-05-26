@@ -9,13 +9,13 @@
  */
 namespace App\Lib\DA\Mapper;
 
-use App\Lib\DA\Adapter\MysqlAdapter;
+use App\Lib\DA\Strategy\MysqlStrategy;
 
 /**
  * Abstract Class MysqlMapper
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-abstract class MysqlMapper extends MysqlAdapter implements DAMapper
+abstract class MysqlMapper extends MysqlStrategy implements DAMapper
 {
     protected $table;
 

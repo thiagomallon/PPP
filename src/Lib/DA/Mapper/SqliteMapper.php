@@ -9,13 +9,13 @@
  */
 namespace App\Lib\DA\Mapper;
 
-use App\Lib\DA\Adapter\SqliteAdapter;
+use App\Lib\DA\Strategy\SqliteStrategy;
 
 /**
  * Abstract Class SqliteMapper
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-abstract class SqliteMapper extends SqliteAdapter
+abstract class SqliteMapper extends SqliteStrategy
 {
     protected $table;
 
