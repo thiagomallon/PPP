@@ -89,7 +89,7 @@ final class PSkelG
     }
 }
 
-/**
+/*
  * Espera-se comando assim como:
  *
  * php data/streams/PSkelG.php namespaced App\\InputOutput\\PageContentTaker

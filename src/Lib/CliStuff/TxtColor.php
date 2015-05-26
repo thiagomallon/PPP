@@ -85,6 +85,21 @@ class TxtColor
     }
 }
 
-if (isset($argv)) {
-    print TxtColor::decorate('TxtColor::decorate([string $txt[, string $fgColor[, string $bgColor]]])')."\n";
+// FROM WITHIN A PHP SCRIPT, YOU CAN CALL: TxtColor::decorate([string $txt[, string $fgColor[, string $bgColor]]])
+// FROM COMMAND LINE YOU CAN CALL: TxtColor.php [string $txt] [string $fgColor] [string $bgColor]
+
+if (isset($argc)) { // checks if there is some command line argument
+    if (isset($argv[1])) { // checks if the first expected param was setted
+        print TxtColor::decorate($argv[1], ((isset($argv[2]))? $argv[2] : null), ((isset($argv[3]))? $argv[3] : null))."\n";
+    } else {
+        print "\n\n";
+        print TxtColor::decorate('FROM WITHIN A PHP SCRIPT (CLASS, FUNCTION AND GLOBAL SCOPE, YOU CAN CALL: ', 'blue', 'black');
+        print "\n";
+        print TxtColor::decorate('TxtColor::decorate([string $txt[, string $fgColor[, string $bgColor]]])', 'lightgray', 'black');
+        print "\n\n";
+        print TxtColor::decorate('FROM COMMAND LINE YOU CAN CALL: ', 'blue', 'black');
+        print "\n";
+        print TxtColor::decorate('TxtColor.php [string $txt] [string $fgColor] [string $bgColor]', 'lightgray', 'black');
+        print "\n\n\n";
+    }
 }
