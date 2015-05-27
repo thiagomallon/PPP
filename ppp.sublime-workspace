@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"mark",
+				"markTestSkipped"
+			],
+			[
+				"dele",
+				"deleteFileLine"
+			],
+			[
+				"File",
+				"FileNotFoundException"
+			],
+			[
+				"tempFile",
+				"tempFileFactory"
+			],
+			[
+				"assertFil",
+				"assertFileExists"
+			],
+			[
+				"fget",
+				"fgets"
+			],
+			[
+				"tmp",
+				"tmpfname"
+			],
+			[
 				"assertIn",
 				"assertInternalType"
 			],
@@ -120,10 +148,6 @@
 				"FileManipulationTest"
 			],
 			[
-				"mark",
-				"markTestIncomplete"
-			],
-			[
 				"assertArr",
 				"assertArrayNotHasKey"
 			],
@@ -188,18 +212,18 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/test-request.php",
+			"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
 			"settings":
 			{
-				"buffer_size": 31,
+				"buffer_size": 6983,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
+			"file": "/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
 			"settings":
 			{
-				"buffer_size": 3185,
+				"buffer_size": 4598,
 				"line_ending": "Unix"
 			}
 		}
@@ -247,8 +271,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 222.0,
-		"last_filter": "C++",
+		"height": 96.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -300,7 +324,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -326,18 +350,22 @@
 	"expanded_folders":
 	[
 		"/var/www/html/RepCertification",
-		"/var/www/html/RepCertification/lib",
-		"/var/www/html/RepCertification/lib/CliStuff",
-		"/var/www/html/PPP",
-		"/var/www/html/PPP/src",
-		"/var/www/html/PPP/src/Lib",
-		"/var/www/html/PPP/src/Lib/CliStuff",
-		"/var/www/html/PPP/src/Lib/Logon"
+		"/var/www/html/RepCertification/data",
+		"/var/www/html/RepCertification/data/streams",
+		"/var/www/html/RepCertification/src",
+		"/var/www/html/RepCertification/test",
+		"/var/www/html/RepCertification/test/InputOutput"
 	],
 	"file_history":
 	[
-		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
+		"/var/www/html/RepCertification/data/streams/tempFilesList",
+		"/var/www/html/RepCertification/src/ErrorsAndExceptions/FileNotFoundException.php",
+		"/var/www/html/RepCertification/data/streams/tempbks",
+		"/var/www/html/encoding-url.php",
+		"/var/www/html/PPP/README.md",
+		"/var/www/html/test-request.php",
 		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
 		"/var/www/html/PPP/src/Lib/Logon/LoginStrategy.php",
 		"/etc/php5/apache2/php.ini",
 		"/var/www/html/PPP/src/Lib/Logon/SqliteStrategy.php",
@@ -457,13 +485,7 @@
 		"/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
 		"/var/www/html/RepCertification/src/InputOutput/PageContentTaker.php",
 		"/var/www/html/RepCertification/src/InputOutput/ResourceStream.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Closures.php",
-		"/var/www/html/RepCertification/src/OOProgramming/ClosuresToBind.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Daughter.php",
-		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
-		"/var/www/html/RepCertification/src/OOProgramming/MagicMethods.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Mother.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Reflecting.php"
+		"/var/www/html/RepCertification/src/OOProgramming/Closures.php"
 	],
 	"find":
 	{
@@ -493,6 +515,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$ptrPosA",
+			"arquivo",
+			"FileNotFoundException",
+			"ErrorsAndExceptions",
+			"FileNotFoundException",
+			"readFile",
+			"deleteAllTempFiles",
 			"Adapter",
 			"@package",
 			"w",
@@ -613,14 +642,7 @@
 			"EmailBody",
 			"emailBody",
 			"eMailBody",
-			"emailBody",
-			"eMailBody",
-			"\\Lessons",
-			"App\\Lib\\Lessons",
-			"var1",
-			"php",
-			"\\Patterns",
-			"valores"
+			"emailBody"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -668,19 +690,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/test-request.php",
+					"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31,
+						"buffer_size": 6983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								5170,
+								5170
 							]
 						],
 						"settings":
@@ -688,7 +710,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1096.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -696,19 +718,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
+					"file": "/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3185,
+						"buffer_size": 4598,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3126,
-								3126
+								1198,
+								1198
 							]
 						],
 						"settings":
@@ -717,8 +739,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 132.0,
-						"translation.y": 1125.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -808,7 +830,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 278.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

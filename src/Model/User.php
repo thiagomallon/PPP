@@ -40,7 +40,7 @@ class User
 
     /**
      * The Constructor method. Could set property values, or keep them null.
-     * @return void
+     * @return null
      */
     public function __construct($id = null, $username = null, $password = null, $email = null)
     {
@@ -61,7 +61,7 @@ class User
     
     /**
      * The setId method
-     * @return void description
+     * @return null description
      * @param datatype $id description
      */
     public function setId($id)
@@ -80,7 +80,7 @@ class User
     
     /**
      * The setUsername method
-     * @return void description
+     * @return null description
      * @param datatype $username description
      */
     public function setUsername($username)
@@ -99,7 +99,7 @@ class User
     
     /**
      * The setPassword method
-     * @return void description
+     * @return null description
      * @param datatype $password description
      */
     public function setPassword($password)
@@ -118,7 +118,7 @@ class User
     
     /**
      * The setEmail method
-     * @return void description
+     * @return null description
      * @param datatype $email description
      */
     public function setEmail($email)

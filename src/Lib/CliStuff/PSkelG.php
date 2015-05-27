@@ -28,7 +28,7 @@ final class PSkelG
 {
     /**
      * Método construtor, declarado private, para evitar-se instâncias. Classe criada para cli
-     * @return void
+     * @return null
      */
     private function __construct()
     {

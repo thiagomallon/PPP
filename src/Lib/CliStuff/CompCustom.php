@@ -20,7 +20,7 @@ class CompCustom
     /**
      * Método exibe mensagem personalizada quando ocorre comando install
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function preInstall(Event $event)
     {
@@ -36,7 +36,7 @@ class CompCustom
      * Método implementa mensagem personalizada quando finalizadas as atividades
      * geradas após comando install
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function postInstall(Event $event)
     {
@@ -50,7 +50,7 @@ class CompCustom
     /**
      * Método exibe mensagem personalizada quando ocorre comando update
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function preUpdate(Event $event)
     {
@@ -66,7 +66,7 @@ class CompCustom
      * Método implementa mensagem personalizada quando finalizadas as atividades
      * geradas após comando update
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function postUpdate(Event $event)
     {
@@ -80,7 +80,7 @@ class CompCustom
     /**
      * Método exibe mensagem personalizada quando ocorre comando dump-autoload
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function preAutoLoadDump(Event $event)
     {
@@ -97,7 +97,7 @@ class CompCustom
      * Método implementa mensagem personalizada quando finalizadas as atividades
      * geradas após comando dump-autoload
      * @param object $event Recebe objeto to tipo Event
-     * @return void
+     * @return null
      */
     public static function postAutoLoadDump(Event $event)
     {

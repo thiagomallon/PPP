@@ -41,7 +41,7 @@ class UserDAOTest extends \PHPUnit_Framework_TestCase
     }
     /**
      * The testGetUser method
-     * @return void
+     * @return null
      * @covers \App\Model\Mapper\UserDAO::getUsers
      */
     public function testGetUser()
