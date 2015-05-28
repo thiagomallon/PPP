@@ -53,18 +53,6 @@ class XMLConfigReaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers App\Lib\XML\XMLConfigReader::getElementDataByAttr
-     * @todo   Implement testGetElementDataByAttr().
-     */
-    public function testGetElementDataByAttr()
-    {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-            'This test has not been implemented yet.'
-        );
-    }
-
-    /**
      * @covers App\Lib\XML\XMLConfigReader::getXMLData
      * @todo   Implement testGetXMLData().
      */

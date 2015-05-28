@@ -26,8 +26,7 @@ class MysqlStrategy extends DAStrategy implements DAPrototype
             /* Abaixo dependência não injetada, por questão de arquitetura do negócio,n
              * não se faz conveniente implementação de injeção da mesma. */
             $configsXML = new XMLConfigReader();
-            $xmlElm = ['element'=>'database','attribute'=>'dbms','value'=>'mysql'];
-            self::$daDetails = $configsXML->getElementDataByAttr($xmlElm);
+            self::$daDetails = $configsXML->getDatabaseCredentials('mysql');
 
             self::$dbh = new \PDO('mysql:host='.self::$daDetails->host.
                 ';dbname='.self::$daDetails->name, self::$daDetails->user, self::$daDetails->pass);

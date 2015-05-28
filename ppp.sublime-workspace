@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"LOCK_",
+				"LOCK_UN"
+			],
+			[
+				"_",
+				"_csvManipulation"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
 				"mark",
 				"markTestSkipped"
 			],
@@ -22,10 +34,6 @@
 			[
 				"assertFil",
 				"assertFileExists"
-			],
-			[
-				"fget",
-				"fgets"
 			],
 			[
 				"tmp",
@@ -168,10 +176,6 @@
 				"assertArrayHasKey"
 			],
 			[
-				"_",
-				"_setOfStuff"
-			],
-			[
 				"Chri",
 				"ChristmasEmailBody"
 			],
@@ -212,18 +216,18 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
+			"file": "/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
 			"settings":
 			{
-				"buffer_size": 6983,
+				"buffer_size": 6191,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
+			"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
 			"settings":
 			{
-				"buffer_size": 4598,
+				"buffer_size": 10563,
 				"line_ending": "Unix"
 			}
 		}
@@ -271,10 +275,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"phpunit",
+				"PHPUnit: Run with params"
+			],
 			[
 				"C++",
 				"Build With: C++11 - Run"
@@ -286,10 +298,6 @@
 			[
 				"phpuni",
 				"PHPUnit: Run"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"remo",
@@ -306,10 +314,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"phpunit",
-				"PHPUnit: Run with params"
 			],
 			[
 				"phpunit ",
@@ -353,21 +357,129 @@
 		"/var/www/html/RepCertification/data",
 		"/var/www/html/RepCertification/data/streams",
 		"/var/www/html/RepCertification/src",
+		"/var/www/html/RepCertification/src/ErrorsAndExceptions",
+		"/var/www/html/RepCertification/src/InputOutput",
 		"/var/www/html/RepCertification/test",
 		"/var/www/html/RepCertification/test/InputOutput"
 	],
 	"file_history":
 	[
-		"/var/www/html/RepCertification/data/streams/tempFilesList",
+		"/var/www/html/RepCertification/src/ErrorsAndExceptions/FileLockedException.php",
+		"/var/www/html/test-request.php",
+		"/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
+		"/temp/lock.txt",
+		"/var/www/html/RepCertification/src/InputOutput/FileAccessControl.php",
 		"/var/www/html/RepCertification/src/ErrorsAndExceptions/FileNotFoundException.php",
+		"/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
+		"/usr/apes/other/encomendas.txt",
+		"/var/www/html/RepCertification/test/InputOutput/CSVManipulationTest.php",
+		"/var/www/html/RepCertification/src/InputOutput/CSVManipulation.php",
+		"/var/www/html/RepCertification/test/InputOutput/ZlibManipulationTest.php",
+		"/var/www/html/RepCertification/data/streams/file.gz",
+		"/var/www/html/RepCertification/data/streams/SpreadSheet.csv",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/fxt.sublime-snippet",
+		"/var/www/html/RepCertification/data/streams/testingPutContents",
+		"/var/www/html/RepCertification/src/InputOutput/ZlibManipulation.php",
+		"/var/www/html/testing-implements.php",
+		"/var/www/html/stream_context_create.php",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-55/phpdoc-cache-file_40a9ce474f9f581bb63189e293f79eee.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-7d/phpdoc-cache-file_d4e466fb13707a31b9cbeb0910ef59c2.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a5/phpdoc-cache-file_e13d679e753a81e19671732f55a25a37.dat",
+		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-e3/phpdoc-cache-file_1466bb1a0a37fe9f7cf52eda8f3b431a.dat",
+		"/var/www/html/PPP/skelgen",
+		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
+		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
+		"/var/www/html/PPP/src/Model/User.php",
+		"/var/www/html/PPP/test/Model/Mapper/UserDAOTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mett.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/met.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meta.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/meti.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/mets.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/metts.sublime-snippet",
+		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteDB.php",
+		"/var/www/html/RepCertification/src/DatabasesSQL/MySqlDB.php",
+		"/var/www/html/RepCertification/skelgen",
+		"/var/www/html/RepCertification/lib/CliStuff/PSkelG.php",
+		"/var/www/html/RepCertification/lib/CliStuff/CompCustom.php",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-f2/phpdoc-cache-file_32d3cf3813d208906d230934b64aa003.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-ec/phpdoc-cache-file_097a82f0d64c3546c37c3e2ecaed7969.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-e8/phpdoc-cache-file_3b5723d18c759cb4e0fa7a90bc2eb5e8.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-de/phpdoc-cache-file_d7cadd0ad4bb0e7c5f454710a1d4a7f6.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-d9/phpdoc-cache-file_d619928ede886459aa999310da030340.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-d9/phpdoc-cache-file_0c82e833f95d7737611138151a2e9cef.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-d2/phpdoc-cache-file_827da88fae627b8b5c5e15bb11cad83b.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-c2/phpdoc-cache-file_c8533c9032ba65629c58475c883e2d76.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-b7/phpdoc-cache-file_a1282d6ea6fd09a95408010f58a2d5e4.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-b7/phpdoc-cache-file_2ba252be2d5b29617d023c3d89970e53.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-a7/phpdoc-cache-file_16fc517e1a5f766cf26ccac7c11c2150.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-9b/phpdoc-cache-file_ea3980442ea220cecf56ac5858628697.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-92/phpdoc-cache-file_ee7ed29ac782623c82edb6936b3be630.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-89/phpdoc-cache-file_ed4dd05976f6badbb275ae8cba4f01b8.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-7b/phpdoc-cache-file_2898cf5702f0a55a57c00347b33cd98b.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-76/phpdoc-cache-file_4fd95f95985b6bfb67719167fa070a0c.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-75/phpdoc-cache-file_a28252b0006b0589d856f980de29a768.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-6f/phpdoc-cache-file_53dd3c79d2ac24749a849bc35e94880a.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-66/phpdoc-cache-file_2c3d2d1a81331eb7ca2f7f411c1e403c.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-5a/phpdoc-cache-file_ba55f33cb621a6bac80019784ee35969.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-59/phpdoc-cache-file_29c15c780480f3719eed3f14c7038bef.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-54/phpdoc-cache-file_de244e3169aac2cb4c0cbe84feba79cb.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-4e/phpdoc-cache-file_71f3f3600bd9d8da644291b4696fbfdc.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-46/phpdoc-cache-file_8496026e9f643487865fa482f06e2e7a.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-44/phpdoc-cache-file_93827ae123d8c430705f21ae54c614a4.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-41/phpdoc-cache-file_2df8c5f249e8245a767255a5e451c45e.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-3c/phpdoc-cache-file_4ec69db4b59672410cdccc156f5a8647.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-36/phpdoc-cache-file_2e4c1283ff47fd288f330957f922b61c.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-31/phpdoc-cache-file_d2f5171989594da8392dc71dd3ea325b.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-25/phpdoc-cache-file_134156baa37a5d2bd8c1c758114fb31d.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-1f/phpdoc-cache-file_3b3f40fa6d59e9ee1e6dbac116f03229.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-0e/phpdoc-cache-file_4ccf06c61af9f20c8b5a34ec4ed0130e.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-0e/phpdoc-cache-file_08a379e990c46dc78bb85b7cd295433e.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-08/phpdoc-cache-file_6ed1d7c379c2b575a3d4c6396ce8b48c.dat",
+		"/var/www/html/RepCertification/data/documentation/parser/phpdoc-cache-02/phpdoc-cache-file_6a02a738403ed28ec90f7edbe43b3339.dat",
+		"/var/www/html/RepCertification/src/InputOutput/ResourceStream.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Daughter.php",
+		"/var/www/html/RepCertification/src/OOProgramming/GrandMa.php",
+		"/var/www/html/RepCertification/src/OOProgramming/MagicMethods.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Mother.php",
+		"/var/www/html/RepCertification/src/OOProgramming/Reflecting.php",
+		"/var/www/html/RepCertification/src/PHPBasics/Daughter.php",
+		"/var/www/html/RepCertification/src/PHPBasics/Mother.php",
+		"/var/www/html/RepCertification/src/StringsAndPatterns/PregMatching.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayCallbacksTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayDifferenciating.php",
+		"/var/www/html/RepCertification/test/Arrays/ArrayPointerTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArraySortingTest.php",
+		"/var/www/html/RepCertification/test/Arrays/ArraysTest.php",
+		"/var/www/html/RepCertification/test/DatabasesSQL/MySqlDBTest.php",
+		"/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
+		"/var/www/html/RepCertification/test/InputOutput/PageContentTakerTest.php",
+		"/var/www/html/RepCertification/test/InputOutput/ResourceStreamTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/ClosuresTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/ClosuresToBindTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/DaughterTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/MagicMethodsTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/MotherTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/PeculiarCallsTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/ReflectingTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/StaticStuffDaughterTest.php",
+		"/var/www/html/RepCertification/test/OOProgramming/UNSerializingTest.php",
+		"/var/www/html/RepCertification/test/PHPBasics/BasicStuffTest.php",
+		"/var/www/html/RepCertification/test/PHPBasics/DaughterTest.php",
+		"/var/www/html/RepCertification/test/PHPBasics/RawCastingTest.php",
+		"/var/www/html/RepCertification/test/StringsAndPatterns/PregMatchTest.php",
+		"/var/www/html/RepCertification/test/WebFeatures/ConfigsXMLReaderTest.php",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/pbpr.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/pdpr.sublime-snippet",
+		"/home/yslave/.config/sublime-text-3/Packages/User/snippetsOMine/pvpr.sublime-snippet",
+		"/etc/php5/apache2/php.ini",
+		"/var/www/html/RepCertification/data/streams/tempFilesList",
 		"/var/www/html/RepCertification/data/streams/tempbks",
 		"/var/www/html/encoding-url.php",
 		"/var/www/html/PPP/README.md",
-		"/var/www/html/test-request.php",
 		"/var/www/html/RepCertification/lib/CliStuff/TxtColor.php",
 		"/var/www/html/PPP/src/Lib/CliStuff/TxtColor.php",
 		"/var/www/html/PPP/src/Lib/Logon/LoginStrategy.php",
-		"/etc/php5/apache2/php.ini",
 		"/var/www/html/PPP/src/Lib/Logon/SqliteStrategy.php",
 		"/var/www/html/PPP/src/Lib/Logon/StreamStrategy.php",
 		"/var/www/html/GOF/Tutsplus-GOF/Strategy/PriceCalculator.php",
@@ -378,114 +490,8 @@
 		"/var/www/html/GOF/Tutsplus-GOF/Adapter/RealWhiteRose.php",
 		"/var/www/html/GOF/Tutsplus-GOF/Adapter/ProductInterface.php",
 		"/var/www/html/GOF/Tutsplus-GOF/Adapter/RosesToProductAdapter.php",
-		"/usr/apes/other/encomendas.txt",
-		"/var/www/html/PPP/skelgen",
 		"/var/www/html/PPP/src/Lib/DA/Mapper/MysqlMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Strategy/StreamStrategy.php",
-		"/var/www/html/PPP/test/Model/Mapper/UserDAOTest.php",
-		"/var/www/html/PPP/src/Lib/DA/Strategy/SqliteStrategy.php",
-		"/var/www/html/PPP/src/Lib/DA/Strategy/MysqlStrategy.php",
-		"/var/www/html/PPP/src/Lib/DA/Strategy/DAAdapter.php",
-		"/var/www/html/test__get.php",
-		"/var/www/html/RepCertification/test/Functions/FunctionsTest.php",
-		"/var/www/html/main.cpp",
-		"/home/yslave/.config/sublime-text-3/Packages/User/C++11.sublime-settings",
-		"/home/yslave/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
-		"/home/yslave/.config/sublime-text-3/Packages/C++11/messages/install.txt",
-		"/var/www/html/RepCertification/lib/CliStuff/CompCustom.php",
-		"/var/www/html/RepCertification/lib/CliStuff/PSkelG.php",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-14/phpdoc-cache-file_b85f6ae7a41d959c148989fdb5e2aa27.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-22/phpdoc-cache-file_7835fc4c6a4f12ade79fc6cb81f92db9.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-37/phpdoc-cache-file_4ec79179982cb9726ef71e1cb9dcdedf.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-3d/phpdoc-cache-file_0576126aa9fe3801ef62b212c6a3920b.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-55/phpdoc-cache-file_40a9ce474f9f581bb63189e293f79eee.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-6e/phpdoc-cache-file_e03d7c175ada3096d5a775102fac7043.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-7d/phpdoc-cache-file_d4e466fb13707a31b9cbeb0910ef59c2.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-85/phpdoc-cache-file_8a6adfbcbb1e66fd6ea9dc5943cc94b6.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-90/phpdoc-cache-file_c9fcc76f99f7680c0981ed3445235051.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-93/phpdoc-cache-file_7de0bbf7589984bc1d7f770b324b762d.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-9a/phpdoc-cache-file_adf29362054f91675232f70b45f97e4c.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a1/phpdoc-cache-file_d35fa56866ffaf8de469660b7ea7748c.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a4/phpdoc-cache-file_57986fe1efc6b488bd2b12cbed5f9884.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-a5/phpdoc-cache-file_e13d679e753a81e19671732f55a25a37.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-b5/phpdoc-cache-file_8f60a255b6ea35cad01ab29f7531540a.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-be/phpdoc-cache-file_2250bfe8d583b48d7a501576daf8264b.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-e3/phpdoc-cache-file_1466bb1a0a37fe9f7cf52eda8f3b431a.dat",
-		"/var/www/html/PPP/data/documentation/parser/phpdoc-cache-eb/phpdoc-cache-file_9ec1e38ecdc9427bbdb1b44cb9abbb3d.dat",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DatabasesSQL/SingWithTongue.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/FindFoodAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/MammalSurvive.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensAbstract.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensFactory.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensFemale.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensMale.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/DesignPatterns/SapiensSurviveAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/FileManipulation.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/PageContentTaker.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/InputOutput/ResourceStream.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/CompCustom.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/PSkelG.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/CliStuff/TxtColor.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/Controller/Controller.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/DAAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/MysqlAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/SqliteAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Adapter/StreamAdapter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/DAMapper.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/MysqlMapper.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Mapper/SqliteMapper.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/DA/Prototype/DAPrototype.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/XML/XMLConfigReader.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Lib/XML/XMLReader.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Model/Mapper/UserDAO.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Model/User.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Closures.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/ClosuresToBind.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Daughter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/GrandMa.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/MagicMethods.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Mother.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OODaughter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OOGrandMa.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/OOMother.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/Reflecting.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/StaticStuffDaughter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/OOProgramming/StaticStuffMother.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/BasicStuff.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/Daughter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/PHPBasics/Mother.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Patterns/TargetInterface.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatching.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingAll.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingFilter.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMatchingReplace.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/StringsAndPatterns/PregMathingSplit.php.html",
-		"/var/www/html/PPP/data/test-logs/html-code-coverage/Util/CPFValidator.php.html",
-		"/var/www/html/PPP/src/Controller/IndexController.php",
-		"/var/www/html/PPP/src/Lib/CliStuff/CompCustom.php",
-		"/var/www/html/PPP/src/Lib/CliStuff/PSkelG.php",
-		"/var/www/html/PPP/src/Lib/Controller/Controller.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/DAAdapter.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/MysqlAdapter.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/SqliteAdapter.php",
-		"/var/www/html/PPP/src/Lib/DA/Adapter/StreamAdapter.php",
-		"/var/www/html/PPP/src/Lib/DA/Mapper/DAMapper.php",
-		"/var/www/html/PPP/src/Lib/DA/Prototype/DAPrototype.php",
-		"/var/www/html/PPP/src/Lib/XML/XMLConfigReader.php",
-		"/var/www/html/PPP/src/Lib/XML/XMLReader.php",
-		"/var/www/html/PPP/src/Model/Mapper/UserDAO.php",
-		"/var/www/html/PPP/src/Model/User.php",
-		"/var/www/html/PPP/src/Util/CPFValidator.php",
-		"/var/www/html/RepCertification/test/PHPBasics/VariableVariablesTest.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/DB.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/DBPrototype.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/MySqlDB.php",
-		"/var/www/html/RepCertification/src/DatabasesSQL/SqliteDB.php",
-		"/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
-		"/var/www/html/RepCertification/src/InputOutput/PageContentTaker.php",
-		"/var/www/html/RepCertification/src/InputOutput/ResourceStream.php",
-		"/var/www/html/RepCertification/src/OOProgramming/Closures.php"
+		"/var/www/html/PPP/src/Lib/DA/Mapper/SqliteMapper.php"
 	],
 	"find":
 	{
@@ -496,6 +502,8 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/var/www/html/PPP",
+			"/var/www/html/RepCertification",
 			"/var/www/html/PPP/src/Lib/DA",
 			"/var/www/html/RepCertification/lib",
 			"/var/www/html/PPP/config,/var/www/html/PPP/data,/var/www/html/PPP/src,/var/www/html/PPP/test",
@@ -515,6 +523,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'File not found'",
+			"FileNotFound",
+			"putContent",
+			"file_get_contents",
+			"data/file.gz",
+			"Bz",
+			"object",
+			"@return void",
+			"getBzFileHandle",
+			"writingOnBZ",
+			"zlib",
+			"zip",
+			"zlib",
 			"$ptrPosA",
 			"arquivo",
 			"FileNotFoundException",
@@ -629,20 +650,7 @@
 			"email",
 			"Email",
 			"email",
-			"eMail",
-			"email",
-			"Email",
-			"email",
-			"eMail",
-			"Email",
-			"eMail",
-			"emailBody",
-			"EmailBody",
-			"emailBody",
-			"EmailBody",
-			"emailBody",
-			"eMailBody",
-			"emailBody"
+			"eMail"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -650,6 +658,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"@return null",
 			"Strategy",
 			"@subpackage",
 			"$1->$2",
@@ -685,52 +694,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6983,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5170,
-								5170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1096.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/var/www/html/RepCertification/test/InputOutput/FileManipulationTest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4598,
+						"buffer_size": 6191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1198,
-								1198
+								1610,
+								1610
 							]
 						],
 						"settings":
@@ -740,10 +721,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/RepCertification/src/InputOutput/FileManipulation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10563,
+								10563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2562.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -782,7 +793,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 143.0
+		"height": 144.0
 	},
 	"output.find_results":
 	{

@@ -48,29 +48,34 @@ class XMLConfigReader implements XMLReader
     /**
      * The getElementData method
      * @return datatype description
-     * @param datatype $element description
+     * @param string $element description
      */
-    public function getElementData($element)
+    public function getElementData($elementPath)
     {
         $this->xmlContent = $this->getXMLData();
-        return $this->xmlContent->{$this->xmlContent->stage}->{$element};
+        $element = array_shift($this->xmlContent->xpath($elementPath));
+        if ($element) {
+            return $element;
+        } else {
+            throw new \RangeException('Attributo não existe, para o elemento');
+        }
     }
 
     /**
-     * The getElementDataByAttr method
+     * The getDatabaseCredentials method
+     * @param datatype $dbms description
      * @return datatype description
-     * @param datatype $element description
      */
-    public function getElementDataByAttr(array $elementDetails)
+    public function getDatabaseCredentials($dbms)
     {
         $this->xmlContent = $this->getXMLData();
-        $element = $this->xmlContent->{$this->xmlContent->stage}->{$elementDetails['element']};
-        for ($i = 0; $i < count($element); $i++) {
-            if ($element[$i][$elementDetails['attribute']] == $elementDetails['value']) {
-                return $element[$i];
-            }
+        $stage = $this->xmlContent->stage;
+        $element = array_shift($this->xmlContent->xpath($stage.'/database[@dbms="'.$dbms.'"]'));
+        if ($element) {
+            return $element;
+        } else {
+            throw new \RangeException('Attributo não existe, para o elemento');
         }
-        throw new \RangeException('Attributo não existe, para o elemento');
     }
 
     /**

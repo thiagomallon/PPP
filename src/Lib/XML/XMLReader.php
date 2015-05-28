@@ -27,11 +27,6 @@ interface XMLReader
      */
     public function getElementData($element);
     /**
-     * Method getElementDataByAttr
-     * @return datatype description
-     */
-    public function getElementDataByAttr(array $elementDetails);
-    /**
      * The getXMLData abstract method
      * @return datatype description
      */
