@@ -2,5 +2,4 @@
 ppp.sublime-project
 composer.lock
 # folders
-
-
+vendor

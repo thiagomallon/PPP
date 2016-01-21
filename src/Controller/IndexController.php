@@ -17,5 +17,9 @@ use App\Lib\Controller\Controller;
  */
 class IndexController extends Controller
 {
-    
+
+    public function alreadyReady()
+    {
+
+    }
 }
